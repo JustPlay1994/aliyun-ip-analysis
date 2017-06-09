@@ -1,0 +1,787 @@
+2017-06-07 20:44:32  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=df46b0b1-1268-4e6d-a759-e6e8e6ef0a59&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A32Z&Version=2015-01-09
+2017-06-07 20:44:32  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Ddf46b0b1-1268-4e6d-a759-e6e8e6ef0a59%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A44%253A32Z%26Version%3D2015-01-09
+2017-06-07 20:44:32  [ main:4 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=df46b0b1-1268-4e6d-a759-e6e8e6ef0a59&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A32Z&Version=2015-01-09
+2017-06-07 20:44:32  [ main:218 ] - [ INFO ]  Signature=sAbmB/2Cy/mNsaolaFwbbOTtmW4=
+2017-06-07 20:44:32  [ main:219 ] - [ INFO ]  time: 2017-06-07T12:44:32Z
+2017-06-07 20:44:32  [ main:219 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=df46b0b1-1268-4e6d-a759-e6e8e6ef0a59&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A32Z&Version=2015-01-09Signature=sAbmB/2Cy/mNsaolaFwbbOTtmW4=
+2017-06-07 20:44:53  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=933a4e68-221a-4e86-bf6e-031e8306769b&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A53Z&Version=2015-01-09
+2017-06-07 20:44:53  [ main:5 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D933a4e68-221a-4e86-bf6e-031e8306769b%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A44%253A53Z%26Version%3D2015-01-09
+2017-06-07 20:44:53  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=933a4e68-221a-4e86-bf6e-031e8306769b&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A53Z&Version=2015-01-09
+2017-06-07 20:44:54  [ main:225 ] - [ INFO ]  Signature=Bgw6CUji9RamdI4z6RSW0AdTUfg=
+2017-06-07 20:44:54  [ main:225 ] - [ INFO ]  time: 2017-06-07T12:44:54Z
+2017-06-07 20:44:54  [ main:225 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=933a4e68-221a-4e86-bf6e-031e8306769b&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A44%3A53Z&Version=2015-01-09Signature=Bgw6CUji9RamdI4z6RSW0AdTUfg=
+2017-06-07 20:45:22  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=70bb8339-e220-47cb-9120-9d63bb8bd59c&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A45%3A22Z&Version=2015-01-09
+2017-06-07 20:45:22  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D70bb8339-e220-47cb-9120-9d63bb8bd59c%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A45%253A22Z%26Version%3D2015-01-09
+2017-06-07 20:45:22  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=70bb8339-e220-47cb-9120-9d63bb8bd59c&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A45%3A22Z&Version=2015-01-09
+2017-06-07 20:45:22  [ main:275 ] - [ INFO ]  Signature=F6GSeirW1/hEkjitYghdo/dh4t4=
+2017-06-07 20:45:22  [ main:275 ] - [ INFO ]  time: 2017-06-07T12:45:22Z
+2017-06-07 20:45:22  [ main:276 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=70bb8339-e220-47cb-9120-9d63bb8bd59c&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A45%3A22Z&Version=2015-01-09Signature=F6GSeirW1/hEkjitYghdo/dh4t4=
+2017-06-07 20:46:39  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=dbe63c1f-90ef-4219-8e4f-054cbf7580a7&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A39Z&Version=2015-01-09
+2017-06-07 20:46:39  [ main:5 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Ddbe63c1f-90ef-4219-8e4f-054cbf7580a7%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A46%253A39Z%26Version%3D2015-01-09
+2017-06-07 20:46:39  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=dbe63c1f-90ef-4219-8e4f-054cbf7580a7&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A39Z&Version=2015-01-09
+2017-06-07 20:46:39  [ main:200 ] - [ INFO ]  Signature=mzoB3zLdA7R6mEdJYv5sEhbEmXo=
+2017-06-07 20:46:39  [ main:201 ] - [ INFO ]  time: 2017-06-07T12:46:39Z
+2017-06-07 20:46:39  [ main:201 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=dbe63c1f-90ef-4219-8e4f-054cbf7580a7&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A39Z&Version=2015-01-09Signature=mzoB3zLdA7R6mEdJYv5sEhbEmXo=
+2017-06-07 20:46:56  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=18e20b12-4622-452c-a78e-4aea05814fb1&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A55Z&Version=2015-01-09
+2017-06-07 20:46:56  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D18e20b12-4622-452c-a78e-4aea05814fb1%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A46%253A55Z%26Version%3D2015-01-09
+2017-06-07 20:46:56  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=18e20b12-4622-452c-a78e-4aea05814fb1&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A55Z&Version=2015-01-09
+2017-06-07 20:46:56  [ main:233 ] - [ INFO ]  Signature=FC60RL31Z8uvbns4+jNLjR3jOiI=
+2017-06-07 20:46:56  [ main:236 ] - [ INFO ]  time: 2017-06-07T12:46:56Z
+2017-06-07 20:46:56  [ main:237 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=18e20b12-4622-452c-a78e-4aea05814fb1&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A46%3A55Z&Version=2015-01-09Signature=FC60RL31Z8uvbns4+jNLjR3jOiI=
+2017-06-07 20:50:38  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=8ad0859d-3d99-4ee5-b3ac-ef81a1e4c50c&SignatureVersion=1.0.0&TimeStamp=2017-06-07T12%3A50%3A38Z&Version=2015-01-09
+2017-06-07 20:50:38  [ main:6 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D8ad0859d-3d99-4ee5-b3ac-ef81a1e4c50c%26SignatureVersion%3D1.0.0%26TimeStamp%3D2017-06-07T12%253A50%253A38Z%26Version%3D2015-01-09
+2017-06-07 20:50:38  [ main:8 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=8ad0859d-3d99-4ee5-b3ac-ef81a1e4c50c&SignatureVersion=1.0.0&TimeStamp=2017-06-07T12%3A50%3A38Z&Version=2015-01-09
+2017-06-07 20:50:38  [ main:198 ] - [ INFO ]  Signature=wwZosn1bmB1QTOlLLxGFZbCB+Y4=
+2017-06-07 20:50:38  [ main:199 ] - [ INFO ]  time: 2017-06-07T12:50:38Z
+2017-06-07 20:50:38  [ main:199 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=8ad0859d-3d99-4ee5-b3ac-ef81a1e4c50c&SignatureVersion=1.0.0&TimeStamp=2017-06-07T12%3A50%3A38Z&Version=2015-01-09Signature=wwZosn1bmB1QTOlLLxGFZbCB+Y4=
+2017-06-07 20:53:37  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=f23fe169-b8e9-443f-923e-21fe086618ce&SignatureVersion=2.0.1&TimeStamp=2017-06-07T12%3A53%3A36Z&Version=2016-07-04
+2017-06-07 20:53:37  [ main:6 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Df23fe169-b8e9-443f-923e-21fe086618ce%26SignatureVersion%3D2.0.1%26TimeStamp%3D2017-06-07T12%253A53%253A36Z%26Version%3D2016-07-04
+2017-06-07 20:53:37  [ main:7 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=f23fe169-b8e9-443f-923e-21fe086618ce&SignatureVersion=2.0.1&TimeStamp=2017-06-07T12%3A53%3A36Z&Version=2016-07-04
+2017-06-07 20:53:37  [ main:226 ] - [ INFO ]  Signature=XRuk98RoLC9D54VdH7bqu6WU2Qg=
+2017-06-07 20:53:37  [ main:227 ] - [ INFO ]  time: 2017-06-07T12:53:37Z
+2017-06-07 20:53:37  [ main:230 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=f23fe169-b8e9-443f-923e-21fe086618ce&SignatureVersion=2.0.1&TimeStamp=2017-06-07T12%3A53%3A36Z&Version=2016-07-04Signature=XRuk98RoLC9D54VdH7bqu6WU2Qg=
+2017-06-07 20:55:39  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=74fe833a-dee6-4a60-8092-a0cf413ec9c3&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A55%3A39Z&Version=2015-01-09
+2017-06-07 20:55:40  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D74fe833a-dee6-4a60-8092-a0cf413ec9c3%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A55%253A39Z%26Version%3D2015-01-09
+2017-06-07 20:55:40  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=74fe833a-dee6-4a60-8092-a0cf413ec9c3&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A55%3A39Z&Version=2015-01-09
+2017-06-07 20:55:40  [ main:195 ] - [ INFO ]  Signature=hUnFYyukA967zD8Va5ubpz+cUg0=
+2017-06-07 20:55:40  [ main:195 ] - [ INFO ]  time: 2017-06-07T12:55:40Z
+2017-06-07 20:55:40  [ main:195 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=74fe833a-dee6-4a60-8092-a0cf413ec9c3&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A55%3A39Z&Version=2015-01-09Signature=hUnFYyukA967zD8Va5ubpz+cUg0=
+2017-06-07 20:56:11  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=2e6f84c3-4c4e-49e9-82f1-2f3e7b9f4ac5&SignatureVersion=1.0&Timestamp=2017-06-07T12%3A56%3A11Z&Version=2015-01-09
+2017-06-07 20:56:11  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D2e6f84c3-4c4e-49e9-82f1-2f3e7b9f4ac5%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-07T12%253A56%253A11Z%26Version%3D2015-01-09
+2017-06-07 20:56:11  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=2e6f84c3-4c4e-49e9-82f1-2f3e7b9f4ac5&SignatureVersion=1.0&Timestamp=2017-06-07T12%3A56%3A11Z&Version=2015-01-09
+2017-06-07 20:56:11  [ main:194 ] - [ INFO ]  Signature=AaQHzktLY1GLjVClg38upFjftps=
+2017-06-07 20:56:11  [ main:196 ] - [ INFO ]  time: 2017-06-07T12:56:11Z
+2017-06-07 20:56:11  [ main:196 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=2e6f84c3-4c4e-49e9-82f1-2f3e7b9f4ac5&SignatureVersion=1.0&Timestamp=2017-06-07T12%3A56%3A11Z&Version=2015-01-09Signature=AaQHzktLY1GLjVClg38upFjftps=
+2017-06-07 20:56:59  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=xml&SignatureMethod=HMAC-SHA1&SignatureNonce=4e496ce1-ccca-447a-a86c-32979fd99eef&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A56%3A59Z&Version=2015-01-09
+2017-06-07 20:56:59  [ main:6 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Dxml%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D4e496ce1-ccca-447a-a86c-32979fd99eef%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A56%253A59Z%26Version%3D2015-01-09
+2017-06-07 20:56:59  [ main:7 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=xml&SignatureMethod=HMAC-SHA1&SignatureNonce=4e496ce1-ccca-447a-a86c-32979fd99eef&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A56%3A59Z&Version=2015-01-09
+2017-06-07 20:56:59  [ main:277 ] - [ INFO ]  Signature=9WeLz3KYKBZyJsFYvOiUvBUW7X8=
+2017-06-07 20:56:59  [ main:278 ] - [ INFO ]  time: 2017-06-07T12:56:59Z
+2017-06-07 20:56:59  [ main:279 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=xml&SignatureMethod=HMAC-SHA1&SignatureNonce=4e496ce1-ccca-447a-a86c-32979fd99eef&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A56%3A59Z&Version=2015-01-09Signature=9WeLz3KYKBZyJsFYvOiUvBUW7X8=
+2017-06-07 20:58:49  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=a53a824a-9294-4d1a-8e76-4ec9ae0ba5fa&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A58%3A49Z&Version=2015-01-09
+2017-06-07 20:58:49  [ main:6 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Da53a824a-9294-4d1a-8e76-4ec9ae0ba5fa%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T12%253A58%253A49Z%26Version%3D2015-01-09
+2017-06-07 20:58:49  [ main:7 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=a53a824a-9294-4d1a-8e76-4ec9ae0ba5fa&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A58%3A49Z&Version=2015-01-09
+2017-06-07 20:58:50  [ main:243 ] - [ INFO ]  Signature=Ez4doKEzrMM2UFZ8mws5uIkL3DM=
+2017-06-07 20:58:50  [ main:244 ] - [ INFO ]  time: 2017-06-07T12:58:50Z
+2017-06-07 20:58:50  [ main:244 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=a53a824a-9294-4d1a-8e76-4ec9ae0ba5fa&SignatureVersion=1.0&TimeStamp=2017-06-07T12%3A58%3A49Z&Version=2015-01-09Signature=Ez4doKEzrMM2UFZ8mws5uIkL3DM=
+2017-06-07 21:01:29  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomainRecords&DomainName=www.justplay1994.win&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5aa9ab06-cef0-4f51-ab18-e8ef28bf9081&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A01%3A28Z&Version=2015-01-09
+2017-06-07 21:01:29  [ main:5 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomainRecords%26DomainName%3Dwww.justplay1994.win%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5aa9ab06-cef0-4f51-ab18-e8ef28bf9081%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A01%253A28Z%26Version%3D2015-01-09
+2017-06-07 21:01:29  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomainRecords&DomainName=www.justplay1994.win&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5aa9ab06-cef0-4f51-ab18-e8ef28bf9081&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A01%3A28Z&Version=2015-01-09
+2017-06-07 21:01:29  [ main:274 ] - [ INFO ]  Signature=/YalPEwB0aH0P7o5Zgh12KlJuWY=
+2017-06-07 21:01:29  [ main:275 ] - [ INFO ]  time: 2017-06-07T13:01:29Z
+2017-06-07 21:01:29  [ main:276 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomainRecords&DomainName=www.justplay1994.win&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5aa9ab06-cef0-4f51-ab18-e8ef28bf9081&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A01%3A28Z&Version=2015-01-09Signature=/YalPEwB0aH0P7o5Zgh12KlJuWY=
+2017-06-07 21:04:11  [ main:0 ] - [ INFO ]  key-value编码： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=7690538d-0508-4650-8646-8b3a185bbd00&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A04%3A11Z&Version=2015-01-09
+2017-06-07 21:04:11  [ main:4 ] - [ INFO ]  stringToSign: GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D7690538d-0508-4650-8646-8b3a185bbd00%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A04%253A11Z%26Version%3D2015-01-09
+2017-06-07 21:04:11  [ main:5 ] - [ INFO ]  canonicalizedQueryString: &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=7690538d-0508-4650-8646-8b3a185bbd00&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A04%3A11Z&Version=2015-01-09
+2017-06-07 21:04:11  [ main:176 ] - [ INFO ]  Signature=/1lfBOuo4yihvLE3fToIohjk+sQ=
+2017-06-07 21:04:11  [ main:177 ] - [ INFO ]  time: 2017-06-07T13:04:11Z
+2017-06-07 21:04:11  [ main:179 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=7690538d-0508-4650-8646-8b3a185bbd00&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A04%3A11Z&Version=2015-01-09Signature=/1lfBOuo4yihvLE3fToIohjk+sQ=
+2017-06-07 21:11:43  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cfebe6a0-e99a-4822-9271-36df787d44ff&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A11%3A43Z&Version=2015-01-09
+2017-06-07 21:11:43  [ main:4 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dcfebe6a0-e99a-4822-9271-36df787d44ff%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A11%253A43Z%26Version%3D2015-01-09
+2017-06-07 21:11:43  [ main:228 ] - [ INFO ]  Signature=nqn5SYY+vwvEkamAfG3CdOI7AOU=
+2017-06-07 21:11:43  [ main:229 ] - [ INFO ]  time: 2017-06-07T13:11:43Z
+2017-06-07 21:11:43  [ main:230 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cfebe6a0-e99a-4822-9271-36df787d44ff&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A11%3A43Z&Version=2015-01-09Signature=nqn5SYY+vwvEkamAfG3CdOI7AOU=
+2017-06-07 21:13:25  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=6a579301-7580-4c37-89c0-a9691a182082&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A13%3A25Z&Version=2015-01-09
+2017-06-07 21:13:25  [ main:5 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D6a579301-7580-4c37-89c0-a9691a182082%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A13%253A25Z%26Version%3D2015-01-09
+2017-06-07 21:13:25  [ main:195 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:13:25  [ main:196 ] - [ INFO ]  Signature(base64编码后)=Dq9jFI/QEpOG5suGfbeL0tUX9ng=
+2017-06-07 21:13:25  [ main:196 ] - [ INFO ]  time: 2017-06-07T13:13:25Z
+2017-06-07 21:13:26  [ main:197 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=6a579301-7580-4c37-89c0-a9691a182082&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A13%3A25Z&Version=2015-01-09Signature=Dq9jFI/QEpOG5suGfbeL0tUX9ng=
+2017-06-07 21:14:08  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=7091e721-eb03-4c5c-88da-5366853f8d37&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A14%3A08Z&Version=2015-01-09
+2017-06-07 21:14:08  [ main:4 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D7091e721-eb03-4c5c-88da-5366853f8d37%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A14%253A08Z%26Version%3D2015-01-09
+2017-06-07 21:14:08  [ main:197 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:14:08  [ main:198 ] - [ INFO ]  Signature(base64编码后)=oNI/3Q8VNj3NRQL/cTmBycHXQq0=
+2017-06-07 21:14:08  [ main:198 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=7091e721-eb03-4c5c-88da-5366853f8d37&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A14%3A08Z&Version=2015-01-09Signature=oNI/3Q8VNj3NRQL/cTmBycHXQq0=
+2017-06-07 21:16:21  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=2b98cbf7-459e-4006-b73e-b1650fbc437d&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A16%3A21Z&Version=2015-01-09
+2017-06-07 21:16:21  [ main:6 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D2b98cbf7-459e-4006-b73e-b1650fbc437d%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A16%253A21Z%26Version%3D2015-01-09
+2017-06-07 21:16:22  [ main:232 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:16:22  [ main:234 ] - [ INFO ]  Signature(base64编码后)=D0aVxwVQWGVsc6RTQfJ5SopuMrs=
+2017-06-07 21:16:22  [ main:234 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=2b98cbf7-459e-4006-b73e-b1650fbc437d&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A16%3A21Z&Version=2015-01-09&Signature=D0aVxwVQWGVsc6RTQfJ5SopuMrs=
+2017-06-07 21:25:49  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d687aa9d-f5d5-4790-b278-71005ed5edd7&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A25%3A49Z&Version=2015-01-09
+2017-06-07 21:25:49  [ main:5 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dd687aa9d-f5d5-4790-b278-71005ed5edd7%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A25%253A49Z%26Version%3D2015-01-09
+2017-06-07 21:25:49  [ main:209 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 21:25:49  [ main:210 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:25:49  [ main:211 ] - [ INFO ]  Signature(base64编码后)=c5WobT2xRg9D0Xg0y2qu88f95zo=
+2017-06-07 21:25:49  [ main:211 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d687aa9d-f5d5-4790-b278-71005ed5edd7&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A25%3A49Z&Version=2015-01-09&Signature=c5WobT2xRg9D0Xg0y2qu88f95zo=
+2017-06-07 21:26:48  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5dd9f506-f820-4d94-8b45-d75c4eab856e&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A26%3A48Z&Version=2015-01-09
+2017-06-07 21:26:48  [ main:4 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5dd9f506-f820-4d94-8b45-d75c4eab856e%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A26%253A48Z%26Version%3D2015-01-09
+2017-06-07 21:26:48  [ main:158 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 21:26:48  [ main:158 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:26:48  [ main:159 ] - [ INFO ]  Signature(base64编码后)=fVM/Wc1KUzjGxzyvjjBOqjlT7Ns=
+2017-06-07 21:26:48  [ main:160 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5dd9f506-f820-4d94-8b45-d75c4eab856e&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A26%3A48Z&Version=2015-01-09&Signature=fVM/Wc1KUzjGxzyvjjBOqjlT7Ns=
+2017-06-07 21:27:52  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=4bb82b62-fef6-4b16-9027-3b97218a1557&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A27%3A52Z&Version=2015-01-09
+2017-06-07 21:27:52  [ main:6 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D4bb82b62-fef6-4b16-9027-3b97218a1557%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T13%253A27%253A52Z%26Version%3D2015-01-09
+2017-06-07 21:27:52  [ main:255 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 21:27:52  [ main:256 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 21:27:52  [ main:257 ] - [ INFO ]  Signature(base64编码后)=ZXPj5/s7Gd2jIRl/vAgDgGSmj24=
+2017-06-07 21:27:52  [ main:257 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=4bb82b62-fef6-4b16-9027-3b97218a1557&SignatureVersion=1.0&TimeStamp=2017-06-07T13%3A27%3A52Z&Version=2015-01-09&Signature=ZXPj5/s7Gd2jIRl/vAgDgGSmj24=
+2017-06-07 22:48:56  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=736b356b-2727-4daa-927e-86b5e52e44fb&SignatureVersion=1.0&TimeStamp=2017-06-07T14%3A48%3A56Z&Version=2015-01-09
+2017-06-07 22:48:56  [ main:5 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D736b356b-2727-4daa-927e-86b5e52e44fb%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T14%253A48%253A56Z%26Version%3D2015-01-09
+2017-06-07 22:48:57  [ main:185 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 22:48:57  [ main:186 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-07 22:48:57  [ main:187 ] - [ INFO ]  Signature(base64编码后)=kQp+Gl0qEVEQFWlIt/oGqQS6530=
+2017-06-07 22:48:57  [ main:187 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=736b356b-2727-4daa-927e-86b5e52e44fb&SignatureVersion=1.0&TimeStamp=2017-06-07T14%3A48%3A56Z&Version=2015-01-09&Signature=kQp%2BGl0qEVEQFWlIt%2FoGqQS6530%3D
+2017-06-07 23:01:47  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=57147d82-e8ee-47c0-a2bd-d65f17430cfe&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A01%3A47Z&Version=2015-01-09
+2017-06-07 23:01:47  [ main:29 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D57147d82-e8ee-47c0-a2bd-d65f17430cfe%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T15%253A01%253A47Z%26Version%3D2015-01-09
+2017-06-07 23:01:48  [ main:742 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 23:01:48  [ main:742 ] - [ INFO ]  HMAC值：[B@5700d6b1
+2017-06-07 23:01:48  [ main:743 ] - [ INFO ]  Signature(base64编码后)=hbIW4oz559GRXhxNc1dvPSSUpLg=
+2017-06-07 23:01:48  [ main:744 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=57147d82-e8ee-47c0-a2bd-d65f17430cfe&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A01%3A47Z&Version=2015-01-09&Signature=hbIW4oz559GRXhxNc1dvPSSUpLg%3D
+2017-06-07 23:13:17  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=0255f264-7d0a-401d-86ab-b9b0ecf8388d&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A13%3A17Z&Version=2015-01-09
+2017-06-07 23:13:17  [ main:6 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D0255f264-7d0a-401d-86ab-b9b0ecf8388d%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T15%253A13%253A17Z%26Version%3D2015-01-09
+2017-06-07 23:13:17  [ main:286 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 23:13:17  [ main:287 ] - [ INFO ]  HMAC值：[B@5700d6b1
+2017-06-07 23:13:17  [ main:288 ] - [ INFO ]  Signature(base64编码后)=D36XbmsQDH9XZewa6RLIx0529lU=
+2017-06-07 23:13:17  [ main:289 ] - [ INFO ]  signature编码后: D36XbmsQDH9XZewa6RLIx0529lU%3D
+2017-06-07 23:13:17  [ main:289 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=0255f264-7d0a-401d-86ab-b9b0ecf8388d&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A13%3A17Z&Version=2015-01-09&Signature=D36XbmsQDH9XZewa6RLIx0529lU%3D
+2017-06-07 23:13:36  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cf369b88-16d6-499d-a270-d1ef83870b2e&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A13%3A36Z&Version=2015-01-09
+2017-06-07 23:13:36  [ main:6 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dcf369b88-16d6-499d-a270-d1ef83870b2e%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-07T15%253A13%253A36Z%26Version%3D2015-01-09
+2017-06-07 23:13:36  [ main:261 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-07 23:13:36  [ main:262 ] - [ INFO ]  HMAC值：[B@5700d6b1
+2017-06-07 23:13:36  [ main:263 ] - [ INFO ]  Signature(base64编码后)=+alHndsqbPJyRJNj6d/7Nd8HKXU=
+2017-06-07 23:13:36  [ main:263 ] - [ INFO ]  signature编码后= %2BalHndsqbPJyRJNj6d%2F7Nd8HKXU%3D
+2017-06-07 23:13:36  [ main:264 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cf369b88-16d6-499d-a270-d1ef83870b2e&SignatureVersion=1.0&TimeStamp=2017-06-07T15%3A13%3A36Z&Version=2015-01-09&Signature=%2BalHndsqbPJyRJNj6d%2F7Nd8HKXU%3D
+2017-06-08 09:57:23  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=162f6775-1b22-4730-ab63-55a46796876a&SignatureVersion=1.0&TimeStamp=2017-06-08T01%3A57%3A23Z&Version=2015-01-09
+2017-06-08 09:57:23  [ main:12 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D162f6775-1b22-4730-ab63-55a46796876a%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T01%253A57%253A23Z%26Version%3D2015-01-09
+2017-06-08 09:57:23  [ main:244 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-08 09:57:23  [ main:245 ] - [ INFO ]  HMAC值：[B@3fee9989
+2017-06-08 09:57:23  [ main:246 ] - [ INFO ]  Signature(base64编码后)=OzvCCjNP/q9d+pgzjDdhc1cNhGg=
+2017-06-08 09:57:23  [ main:246 ] - [ INFO ]  signature编码后= OzvCCjNP%2Fq9d%2BpgzjDdhc1cNhGg%3D
+2017-06-08 09:57:23  [ main:246 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=162f6775-1b22-4730-ab63-55a46796876a&SignatureVersion=1.0&TimeStamp=2017-06-08T01%3A57%3A23Z&Version=2015-01-09&Signature=OzvCCjNP%2Fq9d%2BpgzjDdhc1cNhGg%3D
+2017-06-08 11:18:37  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=ac171b40-d788-4edd-9eff-640ad081049b&SignatureVersion=1.0&TimeStamp=2017-06-08T03%3A18%3A37Z&Version=2015-01-09
+2017-06-08 11:18:37  [ main:4 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dac171b40-d788-4edd-9eff-640ad081049b%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T03%253A18%253A37Z%26Version%3D2015-01-09
+2017-06-08 11:18:37  [ main:227 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-08 11:18:37  [ main:228 ] - [ INFO ]  HMAC值：[B@e45f292
+2017-06-08 11:18:37  [ main:228 ] - [ INFO ]  Signature(base64编码后)=3/8UuzTyTfczqeKO7DOgOO1v4Zk=
+2017-06-08 11:18:37  [ main:229 ] - [ INFO ]  signature编码后= 3%2F8UuzTyTfczqeKO7DOgOO1v4Zk%3D
+2017-06-08 11:18:37  [ main:230 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=ac171b40-d788-4edd-9eff-640ad081049b&SignatureVersion=1.0&TimeStamp=2017-06-08T03%3A18%3A37Z&Version=2015-01-09&Signature=3%2F8UuzTyTfczqeKO7DOgOO1v4Zk%3D
+2017-06-08 11:18:50  [ main:0 ] - [ INFO ]  &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=074b393c-5f2b-4c65-88b7-da244de34574&SignatureVersion=1.0&Timestamp=2017-06-08T03:18:49Z&Version=2015-01-09
+2017-06-08 11:19:47  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=9ddf744b-06af-4276-b2c9-efb509d78b41&SignatureVersion=1.0&Timestamp=2017-06-08T03:19:47Z&Version=2015-01-09
+2017-06-08 11:22:03  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=43fd939e-b56a-4d09-8054-c2a32741c998&SignatureVersion=1.0&Timestamp=2017-06-08T03:22:02Z&Version=2015-01-09
+2017-06-08 11:22:08  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=b1e89b93-295b-4179-8b61-3100709d2d98&SignatureVersion=1.0&Timestamp=2017-06-08T03:22:07Z&Version=2015-01-09
+2017-06-08 11:22:20  [ main:0 ] - [ INFO ]  ttp://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=e78a09fc-1411-4bd1-a63e-31743d90af3a&SignatureVersion=1.0&Timestamp=2017-06-08T03:22:20Z&Version=2015-01-09
+2017-06-08 11:22:31  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=0ea282a0-a0ae-4077-a2fe-21dfa833d604&SignatureVersion=1.0&Timestamp=2017-06-08T03:22:31Z&Version=2015-01-09
+2017-06-08 11:24:11  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=45fb3b77-3032-4b1b-bb4e-a07160ecc4bb&SignatureVersion=1.0&Timestamp=2017-06-08T03:24:10Z&Version=2015-01-09
+2017-06-08 11:24:45  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?
+2017-06-08 11:25:00  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=95554ea6-ad9e-4210-9a1a-207b4b22d234&SignatureVersion=1.0&Timestamp=2017-06-08T03:25:00Z&Version=2015-01-09
+2017-06-08 11:25:24  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=d44b113e-4c82-4745-8e4a-6f379ad2dc7f&SignatureVersion=1.0&Timestamp=2017-06-08T03:25:23Z&Version=2015-01-09
+2017-06-08 11:26:11  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=8a223fc7-f011-4116-b2dc-e7685b11c83d&SignatureVersion=1.0&Timestamp=2017-06-08T03:26:10Z&Version=2015-01-09
+2017-06-08 11:27:34  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=0c2ce019-0e78-4ab7-b947-b2e55dfb555b&SignatureVersion=1.0&Timestamp=2017-06-08T03:27:33Z&Version=2015-01-09
+2017-06-08 11:27:57  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=38bd6dd8-ee40-4a54-9ea3-eb051b62cffb&SignatureVersion=1.0&Timestamp=2017-06-08T03:27:56Z&Version=2015-01-09&Signature=EAyqKgSarsKkaFqf1el21lBNUCk=
+2017-06-08 11:29:02  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=13b7806d-3747-4a85-b408-c084d3f8ac29&SignatureVersion=1.0&Timestamp=2017-06-08T03:29:01Z&Version=2015-01-09&Signature=pUg3MK0APMYQYwhxZB2KArut3G4%3D
+2017-06-08 11:30:03  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=81e34e92-bfa1-47c4-9d99-336e44be9748&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A30%3A03Z&Version=2015-01-09
+2017-06-08 11:30:03  [ main:3 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=81e34e92-bfa1-47c4-9d99-336e44be9748&SignatureVersion=1.0&Timestamp=2017-06-08T03:30:03Z&Version=2015-01-09&Signature=TCN73a%2BTDQFYwNE1AR2LiT9mTb0%3D
+2017-06-08 11:33:43  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=dc36ab63-5cf4-4eb7-b1f8-36298e4bc0f7&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A33%3A43Z&Version=2015-01-09&Signature=fZdqDOWJoHWh%2FvNBL0VBGAv%2BDBY%3D
+2017-06-08 11:33:43  [ main:3 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=dc36ab63-5cf4-4eb7-b1f8-36298e4bc0f7&SignatureVersion=1.0&Timestamp=2017-06-08T03:33:43Z&Version=2015-01-09&Signature=fZdqDOWJoHWh%2FvNBL0VBGAv%2BDBY%3D
+2017-06-08 11:38:07  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=c2366158-7b09-48aa-8cdb-aeeb891a981a&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A38%3A07Z&Version=2015-01-09&Signature=DB%2BwPL%2FmMR3muVTe0mJgoGyda0U%3D
+2017-06-08 11:38:07  [ main:3 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=c2366158-7b09-48aa-8cdb-aeeb891a981a&SignatureVersion=1.0&Timestamp=2017-06-08T03:38:07Z&Version=2015-01-09&Signature=DB%2BwPL%2FmMR3muVTe0mJgoGyda0U%3D
+2017-06-08 11:38:53  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=30161b5a-12ad-4e7a-aa62-859a9c5a00a6&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A38%3A53Z&Version=2015-01-09&Signature=ICQKYLSGsips%2FFQvXrirUW29ITY%3D
+2017-06-08 11:40:01  [ main:0 ] - [ INFO ]  http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=008e7e54-985c-45c8-bdca-9a4397ff1914&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A40%3A00Z&Version=2015-01-09&Signature=OadhGnO7%2BG%2F4bNZ2wf80c6H9fAI%3D
+2017-06-08 11:53:02  [ main:0 ] - [ INFO ]  【排序后的变量】: [Ljava.lang.String;@3caeaf62
+2017-06-08 11:53:02  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 11:53:02  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: /n&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=4dece34b-b001-4af8-85b2-ad2a1ceb93af&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A53%3A01Z&Version=2015-01-09
+2017-06-08 11:53:02  [ main:9 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: /nGET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D4dece34b-b001-4af8-85b2-ad2a1ceb93af%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T03%253A53%253A01Z%26Version%3D2015-01-09
+2017-06-08 11:53:02  [ main:211 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 11:53:02  [ main:212 ] - [ INFO ]  【将HMAC值进行base64编码后】: pzuK5hJcZUwTrNGn1uvqe0VGmTc=
+2017-06-08 11:53:02  [ main:213 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: /nhttp://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=4dece34b-b001-4af8-85b2-ad2a1ceb93af&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A53%3A01Z&Version=2015-01-09&Signature=pzuK5hJcZUwTrNGn1uvqe0VGmTc%3D
+2017-06-08 11:54:06  [ main:0 ] - [ INFO ]  【排序后的变量】: [Ljava.lang.String;@3caeaf62
+2017-06-08 11:54:06  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 11:54:06  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=a4c808f1-62ac-4f37-90c0-2c5cb4f17015&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A54%3A05Z&Version=2015-01-09
+2017-06-08 11:54:06  [ main:8 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Da4c808f1-62ac-4f37-90c0-2c5cb4f17015%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T03%253A54%253A05Z%26Version%3D2015-01-09
+2017-06-08 11:54:06  [ main:400 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 11:54:06  [ main:401 ] - [ INFO ]  【将HMAC值进行base64编码后】: ei4lK2W3VC5U+yCV4aOl0x/bIuQ=
+2017-06-08 11:54:06  [ main:401 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=a4c808f1-62ac-4f37-90c0-2c5cb4f17015&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A54%3A05Z&Version=2015-01-09&Signature=ei4lK2W3VC5U%2ByCV4aOl0x%2FbIuQ%3D
+2017-06-08 11:59:56  [ main:0 ] - [ INFO ]  【转换为字符串组，并排序后的值】: 
+2017-06-08 11:59:56  [ main:5 ] - [ INFO ]  AccessKeyId, 
+2017-06-08 11:59:56  [ main:5 ] - [ INFO ]  Action, 
+2017-06-08 11:59:56  [ main:5 ] - [ INFO ]  Format, 
+2017-06-08 11:59:56  [ main:6 ] - [ INFO ]  SignatureMethod, 
+2017-06-08 11:59:56  [ main:6 ] - [ INFO ]  SignatureNonce, 
+2017-06-08 11:59:56  [ main:6 ] - [ INFO ]  SignatureVersion, 
+2017-06-08 11:59:56  [ main:7 ] - [ INFO ]  Timestamp, 
+2017-06-08 11:59:56  [ main:7 ] - [ INFO ]  Version, 
+2017-06-08 11:59:56  [ main:9 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 11:59:56  [ main:9 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=05387279-0f6d-4165-ae21-e8dd84f816d2&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A59%3A56Z&Version=2015-01-09
+2017-06-08 11:59:56  [ main:10 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D05387279-0f6d-4165-ae21-e8dd84f816d2%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T03%253A59%253A56Z%26Version%3D2015-01-09
+2017-06-08 11:59:56  [ main:176 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 11:59:56  [ main:177 ] - [ INFO ]  【将HMAC值进行base64编码后】: PoV9+IxAIp7j4W9GKsd+iZpsr4I=
+2017-06-08 11:59:56  [ main:178 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=05387279-0f6d-4165-ae21-e8dd84f816d2&SignatureVersion=1.0&Timestamp=2017-06-08T03%3A59%3A56Z&Version=2015-01-09&Signature=PoV9%2BIxAIp7j4W9GKsd%2BiZpsr4I%3D
+2017-06-08 12:01:17  [ main:0 ] - [ INFO ]  【转换为字符串组，并排序后的值】: 
+AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 12:01:17  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:01:17  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=89857992-ae5b-467a-a804-761b933f1ad2&SignatureVersion=1.0&Timestamp=2017-06-08T04%3A01%3A17Z&Version=2015-01-09
+2017-06-08 12:01:17  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D89857992-ae5b-467a-a804-761b933f1ad2%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T04%253A01%253A17Z%26Version%3D2015-01-09
+2017-06-08 12:01:18  [ main:201 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:01:18  [ main:202 ] - [ INFO ]  【将HMAC值进行base64编码后】: UqFvmikwvdMPWDhonmGfDScpT6o=
+2017-06-08 12:01:18  [ main:202 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=89857992-ae5b-467a-a804-761b933f1ad2&SignatureVersion=1.0&Timestamp=2017-06-08T04%3A01%3A17Z&Version=2015-01-09&Signature=UqFvmikwvdMPWDhonmGfDScpT6o%3D
+2017-06-08 12:52:37  [ main:0 ] - [ INFO ]  【转换为字符串组，并排序后的值】: 
+
+2017-06-08 12:52:37  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:52:37  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=4b8f0a1f-10a7-4b42-bb69-1af3547baa0a&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A52%3A37Z
+2017-06-08 12:52:37  [ main:10 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3D4b8f0a1f-10a7-4b42-bb69-1af3547baa0a%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A52%253A37Z
+2017-06-08 12:52:37  [ main:203 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:52:37  [ main:204 ] - [ INFO ]  【将HMAC值进行base64编码后】: +X14HJhQeMoacboE82mKJ5wQ+fA=
+2017-06-08 12:52:37  [ main:206 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=4b8f0a1f-10a7-4b42-bb69-1af3547baa0a&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A52%3A37Z&Signature=%2BX14HJhQeMoacboE82mKJ5wQ%2BfA%3D
+2017-06-08 12:53:43  [ main:0 ] - [ INFO ]  【转换为字符串组，并排序后的值】: 
+
+2017-06-08 12:53:43  [ main:7 ] - [ INFO ]  【SignatureVersion:1.0】	【Action:DescribeDomains】	【Format:JSON】	【SignatureNonce:154456c6-4d2d-4c70-a213-129f5f90ee03】	【Version:2015-01-09】	【AccessKeyId:LTAImKyenyClI8EV】	【SignatureMethod:HMAC-SHA1】	【Timestamp:2017-06-08T04:53:42Z】	
+2017-06-08 12:53:43  [ main:10 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:53:43  [ main:11 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=154456c6-4d2d-4c70-a213-129f5f90ee03&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A53%3A42Z
+2017-06-08 12:53:43  [ main:12 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3D154456c6-4d2d-4c70-a213-129f5f90ee03%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A53%253A42Z
+2017-06-08 12:53:43  [ main:339 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:53:43  [ main:340 ] - [ INFO ]  【将HMAC值进行base64编码后】: u90og2ZfjWDpXWPxkgEg+npnn98=
+2017-06-08 12:53:43  [ main:341 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=154456c6-4d2d-4c70-a213-129f5f90ee03&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A53%3A42Z&Signature=u90og2ZfjWDpXWPxkgEg%2Bnpnn98%3D
+2017-06-08 12:54:00  [ main:0 ] - [ INFO ]  【转换为字符串组，并排序后的值】:
+2017-06-08 12:54:00  [ main:4 ] - [ INFO ]  【SignatureVersion:1.0】	【Action:DescribeDomains】	【Format:JSON】	【SignatureNonce:7713b197-0b31-46a8-8429-0e3bdf15928e】	【Version:2015-01-09】	【AccessKeyId:LTAImKyenyClI8EV】	【SignatureMethod:HMAC-SHA1】	【Timestamp:2017-06-08T04:53:59Z】	
+2017-06-08 12:54:00  [ main:8 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:54:00  [ main:10 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=7713b197-0b31-46a8-8429-0e3bdf15928e&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A53%3A59Z
+2017-06-08 12:54:00  [ main:11 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3D7713b197-0b31-46a8-8429-0e3bdf15928e%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A53%253A59Z
+2017-06-08 12:54:00  [ main:227 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:54:00  [ main:228 ] - [ INFO ]  【将HMAC值进行base64编码后】: lFdybfR1AeICePAqWqBrzeaxGd0=
+2017-06-08 12:54:00  [ main:228 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=7713b197-0b31-46a8-8429-0e3bdf15928e&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A53%3A59Z&Signature=lFdybfR1AeICePAqWqBrzeaxGd0%3D
+2017-06-08 12:58:57  [ main:0 ] - [ INFO ]  【所有变量的值】: 【SignatureVersion:1.0】	【Action:DescribeDomains】	【Format:JSON】	【SignatureNonce:bb5e3525-83f3-4436-a3b3-99f98a07162a】	【Version:2015-01-09】	【AccessKeyId:LTAImKyenyClI8EV】	【SignatureMethod:HMAC-SHA1】	【Timestamp:2017-06-08T04:58:57Z】	
+2017-06-08 12:58:57  [ main:7 ] - [ INFO ]  【排序后的串】SignatureVersion, Action, Format, SignatureNonce, Version, AccessKeyId, SignatureMethod, Timestamp, 
+2017-06-08 12:58:57  [ main:8 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:58:57  [ main:11 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=bb5e3525-83f3-4436-a3b3-99f98a07162a&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A58%3A57Z
+2017-06-08 12:58:57  [ main:11 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3Dbb5e3525-83f3-4436-a3b3-99f98a07162a%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A58%253A57Z
+2017-06-08 12:58:57  [ main:305 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:58:57  [ main:306 ] - [ INFO ]  【将HMAC值进行base64编码后】: AySDxZ1gn2rAHoE7dqPdt0KjDQQ=
+2017-06-08 12:58:57  [ main:307 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=bb5e3525-83f3-4436-a3b3-99f98a07162a&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A58%3A57Z&Signature=AySDxZ1gn2rAHoE7dqPdt0KjDQQ%3D
+2017-06-08 12:59:34  [ main:0 ] - [ INFO ]  【所有变量的值】: [SignatureVersion:1.0]	[Action:DescribeDomains]	[Format:JSON]	[SignatureNonce:ade6676c-c4e6-417e-8db5-cfcc24480dab]	[Version:2015-01-09]	[AccessKeyId:LTAImKyenyClI8EV]	[SignatureMethod:HMAC-SHA1]	[Timestamp:2017-06-08T04:59:34Z]	
+2017-06-08 12:59:34  [ main:3 ] - [ INFO ]  【排序后的串】SignatureVersion, Action, Format, SignatureNonce, Version, AccessKeyId, SignatureMethod, Timestamp, 
+2017-06-08 12:59:34  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:59:34  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=ade6676c-c4e6-417e-8db5-cfcc24480dab&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A59%3A34Z
+2017-06-08 12:59:34  [ main:10 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3Dade6676c-c4e6-417e-8db5-cfcc24480dab%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A59%253A34Z
+2017-06-08 12:59:34  [ main:261 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:59:34  [ main:262 ] - [ INFO ]  【将HMAC值进行base64编码后】: /yp2tyyoPN9OGcMJZybgZh0m6e8=
+2017-06-08 12:59:34  [ main:262 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=ade6676c-c4e6-417e-8db5-cfcc24480dab&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A59%3A34Z&Signature=%2Fyp2tyyoPN9OGcMJZybgZh0m6e8%3D
+2017-06-08 12:59:52  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:JSON)	(SignatureNonce:0d5dd6be-0b45-46e5-bd3a-a3dbd5989dba)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T04:59:51Z)	
+2017-06-08 12:59:52  [ main:5 ] - [ INFO ]  【排序后的串】SignatureVersion, Action, Format, SignatureNonce, Version, AccessKeyId, SignatureMethod, Timestamp, 
+2017-06-08 12:59:52  [ main:8 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 12:59:52  [ main:11 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=0d5dd6be-0b45-46e5-bd3a-a3dbd5989dba&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A59%3A51Z
+2017-06-08 12:59:52  [ main:11 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&SignatureVersion%3D1.0%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureNonce%3D0d5dd6be-0b45-46e5-bd3a-a3dbd5989dba%26Version%3D2015-01-09%26AccessKeyId%3DLTAImKyenyClI8EV%26SignatureMethod%3DHMAC-SHA1%26Timestamp%3D2017-06-08T04%253A59%253A51Z
+2017-06-08 12:59:52  [ main:214 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 12:59:52  [ main:215 ] - [ INFO ]  【将HMAC值进行base64编码后】: GHJxNzYyjMn66npaiYjh4BXSoKc=
+2017-06-08 12:59:52  [ main:215 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?SignatureVersion=1.0&Action=DescribeDomains&Format=JSON&SignatureNonce=0d5dd6be-0b45-46e5-bd3a-a3dbd5989dba&Version=2015-01-09&AccessKeyId=LTAImKyenyClI8EV&SignatureMethod=HMAC-SHA1&Timestamp=2017-06-08T04%3A59%3A51Z&Signature=GHJxNzYyjMn66npaiYjh4BXSoKc%3D
+2017-06-08 13:04:27  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:JSON)	(SignatureNonce:a8219613-4d23-4542-99f6-5e0b4763f487)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T05:04:27Z)	
+2017-06-08 13:04:27  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 13:04:27  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 13:04:27  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=a8219613-4d23-4542-99f6-5e0b4763f487&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A04%3A27Z&Version=2015-01-09
+2017-06-08 13:04:27  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Da8219613-4d23-4542-99f6-5e0b4763f487%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T05%253A04%253A27Z%26Version%3D2015-01-09
+2017-06-08 13:04:27  [ main:260 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 13:04:27  [ main:261 ] - [ INFO ]  【将HMAC值进行base64编码后】: +Sq38PSgu+YnInu0OmazROGWQFY=
+2017-06-08 13:04:27  [ main:262 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=a8219613-4d23-4542-99f6-5e0b4763f487&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A04%3A27Z&Version=2015-01-09&Signature=%2BSq38PSgu%2BYnInu0OmazROGWQFY%3D
+2017-06-08 13:06:57  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:JSON)	(SignatureNonce:5d2d06c5-e9e0-4f5e-bdab-9996c6cd5a31)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T05:06:57Z)	
+2017-06-08 13:06:57  [ main:5 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 13:06:57  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 13:06:57  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=5d2d06c5-e9e0-4f5e-bdab-9996c6cd5a31&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A06%3A57Z&Version=2015-01-09
+2017-06-08 13:06:57  [ main:9 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5d2d06c5-e9e0-4f5e-bdab-9996c6cd5a31%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T05%253A06%253A57Z%26Version%3D2015-01-09
+2017-06-08 13:06:57  [ main:254 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 13:06:57  [ main:254 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@31a5c39e
+2017-06-08 13:06:57  [ main:255 ] - [ INFO ]  【将HMAC值进行base64编码后】: RK/JrrAhdu4U7wG863wiRVCkv7I=
+2017-06-08 13:06:57  [ main:257 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=5d2d06c5-e9e0-4f5e-bdab-9996c6cd5a31&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A06%3A57Z&Version=2015-01-09&Signature=RK%2FJrrAhdu4U7wG863wiRVCkv7I%3D
+2017-06-08 13:43:31  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:JSON)	(SignatureNonce:7f245312-371d-448f-9b24-12fdb8b52ea0)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T05:43:31Z)	
+2017-06-08 13:43:31  [ main:5 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 13:43:31  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 13:43:31  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=7f245312-371d-448f-9b24-12fdb8b52ea0&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A43%3A31Z&Version=2015-01-09
+2017-06-08 13:43:31  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3DJSON%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D7f245312-371d-448f-9b24-12fdb8b52ea0%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T05%253A43%253A31Z%26Version%3D2015-01-09
+2017-06-08 13:43:31  [ main:198 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 13:43:31  [ main:198 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@31a5c39e
+2017-06-08 13:43:31  [ main:199 ] - [ INFO ]  【将HMAC值进行base64编码后】: apvBywremC9GtRSIQvTIHRhJZSQ=
+2017-06-08 13:43:31  [ main:199 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=7f245312-371d-448f-9b24-12fdb8b52ea0&SignatureVersion=1.0&Timestamp=2017-06-08T05%3A43%3A31Z&Version=2015-01-09&Signature=apvBywremC9GtRSIQvTIHRhJZSQ%3D
+2017-06-08 14:30:42  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:29f89622-d53d-4955-b05e-30cf63feeb5e)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T06:30:42Z)	
+2017-06-08 14:30:42  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 14:30:42  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 14:30:42  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=29f89622-d53d-4955-b05e-30cf63feeb5e&SignatureVersion=1.0&Timestamp=2017-06-08T06%3A30%3A42Z&Version=2014-05-26
+2017-06-08 14:30:42  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D29f89622-d53d-4955-b05e-30cf63feeb5e%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T06%253A30%253A42Z%26Version%3D2014-05-26
+2017-06-08 14:30:42  [ main:172 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 14:30:42  [ main:173 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 14:30:42  [ main:173 ] - [ INFO ]  【将HMAC值进行base64编码后】: KxVUbfoSaYjD2VLgeFb6f5wEB5w=
+2017-06-08 14:30:42  [ main:174 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=29f89622-d53d-4955-b05e-30cf63feeb5e&SignatureVersion=1.0&Timestamp=2017-06-08T06%3A30%3A42Z&Version=2014-05-26&Signature=KxVUbfoSaYjD2VLgeFb6f5wEB5w%3D
+2017-06-08 14:34:11  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:5311b6cc-10f4-483a-a43f-f3a8f6f74a58)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 14:34:11  [ main:15 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 14:34:11  [ main:19 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 14:34:11  [ main:19 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=5311b6cc-10f4-483a-a43f-f3a8f6f74a58&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 14:34:11  [ main:20 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5311b6cc-10f4-483a-a43f-f3a8f6f74a58%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 14:34:11  [ main:247 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 14:34:11  [ main:247 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 14:34:11  [ main:248 ] - [ INFO ]  【将HMAC值进行base64编码后】: M9h0mpCSwDYb+rYLDZOAPuXCUrk=
+2017-06-08 14:34:11  [ main:248 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=5311b6cc-10f4-483a-a43f-f3a8f6f74a58&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=M9h0mpCSwDYb%2BrYLDZOAPuXCUrk%3D
+2017-06-08 14:41:25  [ main:0 ] - [ INFO ]  canonicalizedQueryString(key-value编码)： &AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=ea2ee59c-ce6e-4506-a6f7-6c8a42d01dc2&SignatureVersion=1.0&TimeStamp=2017-06-08T06%3A41%3A25Z&Version=2015-01-09
+2017-06-08 14:41:25  [ main:4 ] - [ INFO ]  stringToSign(用于签名的字符串): GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dea2ee59c-ce6e-4506-a6f7-6c8a42d01dc2%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T06%253A41%253A25Z%26Version%3D2015-01-09
+2017-06-08 14:41:26  [ main:198 ] - [ INFO ]  keysecret: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&
+2017-06-08 14:41:26  [ main:199 ] - [ INFO ]  HMAC值：[B@e45f292
+2017-06-08 14:41:26  [ main:199 ] - [ INFO ]  Signature(base64编码后)=USZK61Nos6BN1zChJuchCh2+FYg=
+2017-06-08 14:41:26  [ main:200 ] - [ INFO ]  signature编码后= USZK61Nos6BN1zChJuchCh2%2BFYg%3D
+2017-06-08 14:41:26  [ main:200 ] - [ INFO ]  https://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=ea2ee59c-ce6e-4506-a6f7-6c8a42d01dc2&SignatureVersion=1.0&TimeStamp=2017-06-08T06%3A41%3A25Z&Version=2015-01-09&Signature=USZK61Nos6BN1zChJuchCh2%2BFYg%3D
+2017-06-08 14:45:39  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:e25bd75d-f897-4103-bc8d-e253900afc6b)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 14:45:39  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 14:45:39  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 14:45:39  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=e25bd75d-f897-4103-bc8d-e253900afc6b&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 14:45:39  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3De25bd75d-f897-4103-bc8d-e253900afc6b%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 14:45:39  [ main:208 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 14:45:39  [ main:208 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 14:45:39  [ main:209 ] - [ INFO ]  【将HMAC值进行base64编码后】: 9viVAnagjApfQFn1d2wxu6PYhv4=
+2017-06-08 14:45:39  [ main:209 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=e25bd75d-f897-4103-bc8d-e253900afc6b&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=9viVAnagjApfQFn1d2wxu6PYhv4%3D
+2017-06-08 14:45:45  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:92dbe15a-0ff2-422e-96eb-2ae013d455be)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 14:45:45  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 14:45:45  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 14:48:27  [ main:162287 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=92dbe15a-0ff2-422e-96eb-2ae013d455be&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 14:48:27  [ main:162288 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D92dbe15a-0ff2-422e-96eb-2ae013d455be%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 14:48:27  [ main:162468 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 14:48:27  [ main:162468 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4f638935
+2017-06-08 14:48:27  [ main:162469 ] - [ INFO ]  【将HMAC值进行base64编码后】: PeXCX8rkP27rzSAAzgaX/vPyZWI=
+2017-06-08 14:48:27  [ main:162469 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=92dbe15a-0ff2-422e-96eb-2ae013d455be&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=PeXCX8rkP27rzSAAzgaX%2FvPyZWI%3D
+2017-06-08 14:55:02  [ main:0 ] - [ INFO ]  %26
+2017-06-08 14:56:19  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:9ea0b733-8991-4089-bd2a-a8553fe3d08f)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 14:56:19  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 14:56:19  [ main:4 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 14:56:19  [ main:5 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=9ea0b733-8991-4089-bd2a-a8553fe3d08f&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 14:57:23  [ main:64342 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D9ea0b733-8991-4089-bd2a-a8553fe3d08f%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 14:57:23  [ main:64523 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 14:57:23  [ main:64524 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4f638935
+2017-06-08 14:57:23  [ main:64525 ] - [ INFO ]  【将HMAC值进行base64编码后】: Ndxtusri5C+oncHy6OxmyolxfuE=
+2017-06-08 14:57:23  [ main:64525 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=9ea0b733-8991-4089-bd2a-a8553fe3d08f&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=Ndxtusri5C%2BoncHy6OxmyolxfuE%3D
+2017-06-08 15:21:32  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 15:21:32  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 15:21:32  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 15:21:32  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 15:21:32  [ main:9 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 15:21:32  [ main:291 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 15:21:32  [ main:291 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 15:21:32  [ main:292 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-08 15:21:32  [ main:292 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-08 15:27:13  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:a1058981-5326-40cb-943f-ddad658c555f)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T07:27:13Z)	
+2017-06-08 15:27:13  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 15:27:13  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 15:27:13  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=a1058981-5326-40cb-943f-ddad658c555f&SignatureVersion=1.0&Timestamp=2017-06-08T07%3A27%3A13Z&Version=2015-01-09
+2017-06-08 15:27:13  [ main:6 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Da1058981-5326-40cb-943f-ddad658c555f%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T07%253A27%253A13Z%26Version%3D2015-01-09
+2017-06-08 15:27:13  [ main:200 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 15:27:13  [ main:200 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 15:27:13  [ main:201 ] - [ INFO ]  【将HMAC值进行base64编码后】: 5JcrIMCyCMYcRKYq7j8Z4y1hK0E=
+2017-06-08 15:27:13  [ main:201 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=a1058981-5326-40cb-943f-ddad658c555f&SignatureVersion=1.0&Timestamp=2017-06-08T07%3A27%3A13Z&Version=2015-01-09&Signature=5JcrIMCyCMYcRKYq7j8Z4y1hK0E%3D
+2017-06-08 15:54:15  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:d5c8256b-ec26-4791-945b-3d1757fc05ef)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T07:54:14Z)	
+2017-06-08 15:54:15  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 15:54:15  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 15:54:15  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d5c8256b-ec26-4791-945b-3d1757fc05ef&SignatureVersion=1.0&Timestamp=2017-06-08T07%3A54%3A14Z&Version=2015-01-09
+2017-06-08 15:54:15  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dd5c8256b-ec26-4791-945b-3d1757fc05ef%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T07%253A54%253A14Z%26Version%3D2015-01-09
+2017-06-08 15:54:15  [ main:234 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 15:54:15  [ main:234 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 15:54:15  [ main:235 ] - [ INFO ]  【将HMAC值进行base64编码后】: 1ipDTmnzUIaUp4I3525eILH8soE=
+2017-06-08 15:54:15  [ main:235 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d5c8256b-ec26-4791-945b-3d1757fc05ef&SignatureVersion=1.0&Timestamp=2017-06-08T07%3A54%3A14Z&Version=2015-01-09&Signature=1ipDTmnzUIaUp4I3525eILH8soE%3D
+2017-06-08 16:00:29  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:d421e511-3822-4624-a024-c3e928f87a98)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T08:00:29Z)	
+2017-06-08 16:00:29  [ main:2 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 16:00:29  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:00:29  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d421e511-3822-4624-a024-c3e928f87a98&SignatureVersion=1.0&Timestamp=2017-06-08T08%3A00%3A29Z&Version=2015-01-09
+2017-06-08 16:00:29  [ main:6 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dd421e511-3822-4624-a024-c3e928f87a98%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T08%253A00%253A29Z%26Version%3D2015-01-09
+2017-06-08 16:00:30  [ main:237 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:00:30  [ main:238 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:00:30  [ main:240 ] - [ INFO ]  【将HMAC值进行base64编码后】: 5wjK2Mk/ZCPKS0vbtevn4wo7d5Q=
+2017-06-08 16:00:30  [ main:240 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=d421e511-3822-4624-a024-c3e928f87a98&SignatureVersion=1.0&Timestamp=2017-06-08T08%3A00%3A29Z&Version=2015-01-09&Signature=5wjK2Mk%2FZCPKS0vbtevn4wo7d5Q%3D
+2017-06-08 16:04:25  [ main:0 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 16:04:25  [ main:3 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 16:04:25  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:04:25  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 16:04:25  [ main:8 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 16:04:25  [ main:210 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:04:25  [ main:210 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 16:04:25  [ main:211 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-08 16:04:25  [ main:211 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-08 16:10:22  [ main:0 ] - [ INFO ]  auto: false
+2017-06-08 16:10:22  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-08 16:10:22  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 16:10:22  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:10:22  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 16:10:22  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 16:10:22  [ main:218 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:10:22  [ main:227 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 16:10:22  [ main:228 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-08 16:10:22  [ main:229 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-08 16:18:07  [ main:0 ] - [ INFO ]  auto: false
+2017-06-08 16:18:07  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2016-02-23T12:46:24Z)	
+2017-06-08 16:18:07  [ main:5 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:18:07  [ main:8 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:18:07  [ main:9 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&TimeStamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 16:18:07  [ main:9 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26TimeStamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 16:18:08  [ main:269 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:18:08  [ main:269 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 16:18:08  [ main:270 ] - [ INFO ]  【将HMAC值进行base64编码后】: SzovIg3AetBVmeZXvqgiS8MoxBY=
+2017-06-08 16:18:08  [ main:270 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&TimeStamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=SzovIg3AetBVmeZXvqgiS8MoxBY%3D
+2017-06-08 16:18:16  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:18:17  [ main:2 ] - [ INFO ]  明文： 123
+2017-06-08 16:18:17  [ main:3 ] - [ INFO ]  密钥： 123
+2017-06-08 16:18:17  [ main:4 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:19:05  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:19:05  [ main:4 ] - [ INFO ]  明文： 123
+2017-06-08 16:19:05  [ main:4 ] - [ INFO ]  密钥： 12345
+2017-06-08 16:19:05  [ main:6 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:20:00  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:20:00  [ main:3 ] - [ INFO ]  明文： 123
+2017-06-08 16:20:00  [ main:4 ] - [ INFO ]  密钥： 12345
+2017-06-08 16:20:00  [ main:4 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:20:13  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:20:13  [ main:3 ] - [ INFO ]  明文： 12345
+2017-06-08 16:20:13  [ main:3 ] - [ INFO ]  密钥： 123&
+2017-06-08 16:20:13  [ main:3 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:25:06  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:25:09  [ main:3064 ] - [ INFO ]  明文： 12345
+2017-06-08 16:25:10  [ main:4012 ] - [ INFO ]  密钥： 123&
+2017-06-08 16:25:21  [ main:15673 ] - [ INFO ]  结果： [B@7722c3c3
+2017-06-08 16:25:45  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:25:45  [ main:5 ] - [ INFO ]  明文： 12345
+2017-06-08 16:25:45  [ main:5 ] - [ INFO ]  密钥： 123&
+2017-06-08 16:25:45  [ main:6 ] - [ INFO ]  结果： [B@7722c3c3
+2017-06-08 16:25:53  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:25:53  [ main:2 ] - [ INFO ]  明文： 12345
+2017-06-08 16:25:53  [ main:3 ] - [ INFO ]  密钥： 123&
+2017-06-08 16:25:53  [ main:3 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:26:19  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:26:19  [ main:2 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:26:19  [ main:3 ] - [ INFO ]  密钥： 123
+2017-06-08 16:26:19  [ main:3 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:37:16  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:37:16  [ main:3 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:37:16  [ main:4 ] - [ INFO ]  密钥： 123
+2017-06-08 16:37:16  [ main:5 ] - [ INFO ]  结果： [B@3fee9989
+2017-06-08 16:37:16  [ main:7 ] - [ INFO ]  阿里base64zqnS4uxd8C/rMI9kga9AEAp1yxw=
+2017-06-08 16:37:51  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:37:51  [ main:3 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:37:51  [ main:3 ] - [ INFO ]  密钥： 123
+2017-06-08 16:37:51  [ main:3 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:37:51  [ main:5 ] - [ INFO ]  阿里base64: zqnS4uxd8C/rMI9kga9AEAp1yxw=
+2017-06-08 16:37:57  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:37:57  [ main:2 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:37:57  [ main:3 ] - [ INFO ]  密钥： 123
+2017-06-08 16:37:57  [ main:3 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:37:57  [ main:4 ] - [ INFO ]  阿里base64: zqnS4uxd8C/rMI9kga9AEAp1yxw=
+2017-06-08 16:38:26  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:38:26  [ main:3 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:38:26  [ main:3 ] - [ INFO ]  密钥： 123
+2017-06-08 16:38:26  [ main:4 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:38:26  [ main:5 ] - [ INFO ]  阿里base64: zqnS4uxd8C/rMI9kga9AEAp1yxw=
+2017-06-08 16:44:17  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:44:17  [ main:3 ] - [ INFO ]  明文： 1234523sdasdfasdfwef23
+2017-06-08 16:44:17  [ main:4 ] - [ INFO ]  密钥： 123
+2017-06-08 16:44:17  [ main:4 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:44:17  [ main:6 ] - [ INFO ]  阿里base64: W0JAM2ZlZTk5ODk=
+2017-06-08 16:45:24  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:45:24  [ main:2 ] - [ INFO ]  明文： GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&TimeStamp%3D2016-02-23T12%253A46%253A24Z&Version%3D2014-05-26
+2017-06-08 16:45:24  [ main:6 ] - [ INFO ]  密钥： testsecret
+2017-06-08 16:45:24  [ main:7 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:45:24  [ main:8 ] - [ INFO ]  阿里base64: W0JAM2ZlZTk5ODk=
+2017-06-08 16:45:42  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:45:42  [ main:3 ] - [ INFO ]  明文： GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&TimeStamp%3D2016-02-23T12%253A46%253A24Z&Version%3D2014-05-26
+2017-06-08 16:45:42  [ main:3 ] - [ INFO ]  密钥： testsecret
+2017-06-08 16:45:42  [ main:4 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:45:42  [ main:5 ] - [ INFO ]  阿里base64: W0JAM2ZlZTk5ODk=
+2017-06-08 16:46:16  [ main:0 ] - [ INFO ]  【Hmac-SHA1】: 
+2017-06-08 16:46:16  [ main:2 ] - [ INFO ]  明文： GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&TimeStamp%3D2016-02-23T12%253A46%253A24Z&Version%3D2014-05-26
+2017-06-08 16:46:16  [ main:3 ] - [ INFO ]  密钥： testsecret
+2017-06-08 16:46:16  [ main:3 ] - [ INFO ]  HMAC结果： [B@3fee9989
+2017-06-08 16:46:16  [ main:8 ] - [ INFO ]  阿里base64: W0JAM2ZlZTk5ODk=
+2017-06-08 16:47:57  [ main:0 ] - [ INFO ]  auto: false
+2017-06-08 16:47:57  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2016-02-23T12:46:24Z)	
+2017-06-08 16:47:57  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:47:57  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:47:57  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&TimeStamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-08 16:47:57  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26TimeStamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-08 16:47:58  [ main:270 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:47:58  [ main:271 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-08 16:47:58  [ main:271 ] - [ INFO ]  【将HMAC值进行base64编码后】: SzovIg3AetBVmeZXvqgiS8MoxBY=
+2017-06-08 16:47:58  [ main:272 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&TimeStamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=SzovIg3AetBVmeZXvqgiS8MoxBY%3D
+2017-06-08 16:48:27  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 16:48:27  [ main:161 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:c4c744b5-2203-4c54-8cf6-01ce9e1d9468)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T08:48:27Z)	
+2017-06-08 16:48:27  [ main:164 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:48:27  [ main:167 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:48:27  [ main:168 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=c4c744b5-2203-4c54-8cf6-01ce9e1d9468&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A48%3A27Z&Version=2015-01-09
+2017-06-08 16:48:27  [ main:169 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dc4c744b5-2203-4c54-8cf6-01ce9e1d9468%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T08%253A48%253A27Z%26Version%3D2015-01-09
+2017-06-08 16:48:27  [ main:411 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:48:27  [ main:411 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:48:27  [ main:412 ] - [ INFO ]  【将HMAC值进行base64编码后】: GiXKf/AMzmQNWvSupEb1VisqVuw=
+2017-06-08 16:48:27  [ main:412 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=c4c744b5-2203-4c54-8cf6-01ce9e1d9468&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A48%3A27Z&Version=2015-01-09&Signature=GiXKf%2FAMzmQNWvSupEb1VisqVuw%3D
+2017-06-08 16:49:06  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 16:49:06  [ main:157 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:97fd8c41-d8a8-4dc5-8092-972a5fe830bf)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T08:49:06Z)	
+2017-06-08 16:49:06  [ main:162 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:49:06  [ main:165 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:49:06  [ main:166 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=97fd8c41-d8a8-4dc5-8092-972a5fe830bf&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A49%3A06Z&Version=2015-01-09
+2017-06-08 16:49:06  [ main:166 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D97fd8c41-d8a8-4dc5-8092-972a5fe830bf%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T08%253A49%253A06Z%26Version%3D2015-01-09
+2017-06-08 16:49:06  [ main:373 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:49:06  [ main:373 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:49:06  [ main:374 ] - [ INFO ]  【将HMAC值进行base64编码后】: kFdPA8VpEtC+HxOi4mn/ByuK0EM=
+2017-06-08 16:49:06  [ main:374 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=97fd8c41-d8a8-4dc5-8092-972a5fe830bf&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A49%3A06Z&Version=2015-01-09&Signature=kFdPA8VpEtC%2BHxOi4mn%2FByuK0EM%3D
+2017-06-08 16:51:20  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 16:51:20  [ main:155 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:f95cfd72-e3be-4965-9135-845a89787115)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T08:51:20Z)	
+2017-06-08 16:51:20  [ main:157 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:51:20  [ main:159 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:51:20  [ main:160 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=f95cfd72-e3be-4965-9135-845a89787115&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A51%3A20Z&Version=2015-01-09
+2017-06-08 16:51:20  [ main:160 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Df95cfd72-e3be-4965-9135-845a89787115%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T08%253A51%253A20Z%26Version%3D2015-01-09
+2017-06-08 16:51:21  [ main:332 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:51:21  [ main:332 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:51:21  [ main:333 ] - [ INFO ]  【将HMAC值进行base64编码后】: sHAfjch2FtIDWqQ/5Xm7foYFNJs=
+2017-06-08 16:51:21  [ main:333 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=f95cfd72-e3be-4965-9135-845a89787115&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A51%3A20Z&Version=2015-01-09&Signature=sHAfjch2FtIDWqQ%2F5Xm7foYFNJs%3D
+2017-06-08 16:55:30  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 16:55:30  [ main:216 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:5c6eaafa-0e46-4f4d-bf12-57f9659a26f3)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T08:55:30Z)	
+2017-06-08 16:55:30  [ main:220 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:55:30  [ main:222 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:55:30  [ main:222 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5c6eaafa-0e46-4f4d-bf12-57f9659a26f3&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A55%3A30Z&Version=2015-01-09
+2017-06-08 16:55:30  [ main:223 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5c6eaafa-0e46-4f4d-bf12-57f9659a26f3%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T08%253A55%253A30Z%26Version%3D2015-01-09
+2017-06-08 16:55:30  [ main:461 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:55:30  [ main:462 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:55:30  [ main:462 ] - [ INFO ]  【将HMAC值进行base64编码后】: rWwb2nSkVHD3X3y1oAfhAmFvW+U=
+2017-06-08 16:55:30  [ main:462 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5c6eaafa-0e46-4f4d-bf12-57f9659a26f3&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A55%3A30Z&Version=2015-01-09&Signature=rWwb2nSkVHD3X3y1oAfhAmFvW%2BU%3D
+2017-06-08 16:56:04  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 16:56:04  [ main:180 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:22ea5573-85b7-491a-ba41-b591d1f51cda)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T08:56:04Z)	
+2017-06-08 16:56:04  [ main:182 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 16:56:04  [ main:184 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 16:56:04  [ main:184 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=22ea5573-85b7-491a-ba41-b591d1f51cda&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A56%3A04Z&Version=2015-01-09
+2017-06-08 16:56:04  [ main:184 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D22ea5573-85b7-491a-ba41-b591d1f51cda%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T08%253A56%253A04Z%26Version%3D2015-01-09
+2017-06-08 16:56:04  [ main:397 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 16:56:04  [ main:397 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 16:56:04  [ main:398 ] - [ INFO ]  【将HMAC值进行base64编码后】: /f64Cjt3Q5tErnR0GSNbpfJpwPs=
+2017-06-08 16:56:04  [ main:398 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=22ea5573-85b7-491a-ba41-b591d1f51cda&SignatureVersion=1.0&TimeStamp=2017-06-08T08%3A56%3A04Z&Version=2015-01-09&Signature=%2Ff64Cjt3Q5tErnR0GSNbpfJpwPs%3D
+2017-06-08 17:10:03  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:10:03  [ main:154 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:b0bf3ce5-94bb-44ec-97b1-fcecea36ecd7)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T09:10:03Z)	
+2017-06-08 17:10:03  [ main:156 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 17:10:03  [ main:158 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:10:03  [ main:158 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=b0bf3ce5-94bb-44ec-97b1-fcecea36ecd7&SignatureVersion=1.0&TimeStamp=2017-06-08T09%3A10%3A03Z&Version=2015-01-09
+2017-06-08 17:10:03  [ main:159 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Db0bf3ce5-94bb-44ec-97b1-fcecea36ecd7%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T09%253A10%253A03Z%26Version%3D2015-01-09
+2017-06-08 17:10:03  [ main:355 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:10:03  [ main:355 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:10:03  [ main:356 ] - [ INFO ]  【将HMAC值进行base64编码后】: lUH+P1K4PXn2CsLF+mV1/v/tgPU=
+2017-06-08 17:10:03  [ main:356 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=b0bf3ce5-94bb-44ec-97b1-fcecea36ecd7&SignatureVersion=1.0&TimeStamp=2017-06-08T09%3A10%3A03Z&Version=2015-01-09&Signature=lUH%2BP1K4PXn2CsLF%2BmV1%2Fv%2FtgPU%3D
+2017-06-08 17:12:52  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:12:53  [ main:101 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:bda01e4a-eff2-47fa-954f-48de50ea4ca4)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(TimeStamp:2017-06-08T09:12:52Z)	
+2017-06-08 17:12:53  [ main:103 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, TimeStamp, Version, 
+2017-06-08 17:12:53  [ main:105 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:12:53  [ main:106 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=bda01e4a-eff2-47fa-954f-48de50ea4ca4&SignatureVersion=1.0&TimeStamp=2017-06-08T09%3A12%3A52Z&Version=2015-01-09
+2017-06-08 17:12:53  [ main:106 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dbda01e4a-eff2-47fa-954f-48de50ea4ca4%26SignatureVersion%3D1.0%26TimeStamp%3D2017-06-08T09%253A12%253A52Z%26Version%3D2015-01-09
+2017-06-08 17:12:53  [ main:291 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:12:53  [ main:291 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:12:53  [ main:292 ] - [ INFO ]  【将HMAC值进行base64编码后】: 5dbNR874gsmif1uplAIUzIoVVJg=
+2017-06-08 17:12:53  [ main:292 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=bda01e4a-eff2-47fa-954f-48de50ea4ca4&SignatureVersion=1.0&TimeStamp=2017-06-08T09%3A12%3A52Z&Version=2015-01-09&Signature=5dbNR874gsmif1uplAIUzIoVVJg%3D
+2017-06-08 17:13:17  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:13:18  [ main:130 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:cd384d72-1900-4760-aeb7-1a5a675f1a8b)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:13:17Z)	
+2017-06-08 17:13:18  [ main:132 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:13:18  [ main:134 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:13:18  [ main:135 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cd384d72-1900-4760-aeb7-1a5a675f1a8b&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A13%3A17Z&Version=2015-01-09
+2017-06-08 17:13:18  [ main:135 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dcd384d72-1900-4760-aeb7-1a5a675f1a8b%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A13%253A17Z%26Version%3D2015-01-09
+2017-06-08 17:13:18  [ main:379 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:13:18  [ main:380 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:13:18  [ main:380 ] - [ INFO ]  【将HMAC值进行base64编码后】: POAJO6KRnHmQ4EgHzxIJVma6GnQ=
+2017-06-08 17:13:18  [ main:381 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=cd384d72-1900-4760-aeb7-1a5a675f1a8b&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A13%3A17Z&Version=2015-01-09&Signature=POAJO6KRnHmQ4EgHzxIJVma6GnQ%3D
+2017-06-08 17:17:28  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:17:28  [ main:122 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:2619980c-9783-4870-9bf8-f24ab6c5faa0)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:17:28Z)	
+2017-06-08 17:17:28  [ main:125 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:17:28  [ main:128 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:17:28  [ main:129 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=2619980c-9783-4870-9bf8-f24ab6c5faa0&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A17%3A28Z&Version=2015-01-09
+2017-06-08 17:17:28  [ main:129 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D2619980c-9783-4870-9bf8-f24ab6c5faa0%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A17%253A28Z%26Version%3D2015-01-09
+2017-06-08 17:17:28  [ main:359 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:17:28  [ main:359 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:17:28  [ main:360 ] - [ INFO ]  【将HMAC值进行base64编码后】: jACp+zs/LZ2k9c+K6Ghv2i3b2O8=
+2017-06-08 17:17:28  [ main:360 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=2619980c-9783-4870-9bf8-f24ab6c5faa0&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A17%3A28Z&Version=2015-01-09&Signature=jACp%2Bzs%2FLZ2k9c%2BK6Ghv2i3b2O8%3D
+2017-06-08 17:24:53  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:24:53  [ main:162 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:e8bc2295-3234-48eb-aa63-7aa3afbb85ee)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:24:53Z)	
+2017-06-08 17:24:53  [ main:165 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:24:53  [ main:167 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:24:53  [ main:168 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=e8bc2295-3234-48eb-aa63-7aa3afbb85ee&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A24%3A53Z&Version=2015-01-09
+2017-06-08 17:24:53  [ main:168 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3De8bc2295-3234-48eb-aa63-7aa3afbb85ee%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A24%253A53Z%26Version%3D2015-01-09
+2017-06-08 17:24:53  [ main:377 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:24:53  [ main:378 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:24:53  [ main:378 ] - [ INFO ]  【将HMAC值进行base64编码后】: HMLnrOrYgMRMFgnNhZpmrHUGCnQ=
+2017-06-08 17:24:53  [ main:379 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=e8bc2295-3234-48eb-aa63-7aa3afbb85ee&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A24%3A53Z&Version=2015-01-09&Signature=HMLnrOrYgMRMFgnNhZpmrHUGCnQ%3D
+2017-06-08 17:24:58  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:24:59  [ main:153 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:87a0be2d-7efe-4f2f-b147-cacb5a2edd3c)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:24:58Z)	
+2017-06-08 17:24:59  [ main:155 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:24:59  [ main:158 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:24:59  [ main:159 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=87a0be2d-7efe-4f2f-b147-cacb5a2edd3c&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A24%3A58Z&Version=2015-01-09
+2017-06-08 17:24:59  [ main:159 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D87a0be2d-7efe-4f2f-b147-cacb5a2edd3c%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A24%253A58Z%26Version%3D2015-01-09
+2017-06-08 17:24:59  [ main:382 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:24:59  [ main:382 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:24:59  [ main:383 ] - [ INFO ]  【将HMAC值进行base64编码后】: kSwcZEw24qtZXjNIkprgJE9ZDc8=
+2017-06-08 17:24:59  [ main:384 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=87a0be2d-7efe-4f2f-b147-cacb5a2edd3c&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A24%3A58Z&Version=2015-01-09&Signature=kSwcZEw24qtZXjNIkprgJE9ZDc8%3D
+2017-06-08 17:25:40  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:25:40  [ main:101 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:05710641-5973-47e8-8c86-9b24c70b465d)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:25:40Z)	
+2017-06-08 17:25:40  [ main:103 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:25:40  [ main:105 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:25:40  [ main:105 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=05710641-5973-47e8-8c86-9b24c70b465d&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A25%3A40Z&Version=2015-01-09
+2017-06-08 17:25:40  [ main:106 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D05710641-5973-47e8-8c86-9b24c70b465d%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A25%253A40Z%26Version%3D2015-01-09
+2017-06-08 17:25:40  [ main:321 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:25:40  [ main:321 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:25:40  [ main:322 ] - [ INFO ]  【将HMAC值进行base64编码后】: EWXnueBs0RMG2baL2qvZ+7l+Ni0=
+2017-06-08 17:25:40  [ main:323 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=05710641-5973-47e8-8c86-9b24c70b465d&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A25%3A40Z&Version=2015-01-09&Signature=EWXnueBs0RMG2baL2qvZ%2B7l%2BNi0%3D
+2017-06-08 17:37:10  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:37:10  [ main:169 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:3bda1ab9-2137-41eb-81c8-200537493317)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:37:10Z)	
+2017-06-08 17:37:10  [ main:171 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:37:10  [ main:173 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:37:10  [ main:174 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=3bda1ab9-2137-41eb-81c8-200537493317&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A37%3A10Z&Version=2015-01-09
+2017-06-08 17:37:10  [ main:175 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3bda1ab9-2137-41eb-81c8-200537493317%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A37%253A10Z%26Version%3D2015-01-09
+2017-06-08 17:37:10  [ main:391 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:37:10  [ main:392 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:37:10  [ main:392 ] - [ INFO ]  【将HMAC值进行base64编码后】: 3ePlOfiIc8uz/BXMnBctwYFIs6A=
+2017-06-08 17:37:10  [ main:392 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=3bda1ab9-2137-41eb-81c8-200537493317&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A37%3A10Z&Version=2015-01-09&Signature=3ePlOfiIc8uz%2FBXMnBctwYFIs6A%3D
+2017-06-08 17:38:19  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:38:20  [ main:573 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:fc2d7bca-256d-440f-868d-2bf8c1eedce5)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:38:19Z)	
+2017-06-08 17:38:20  [ main:576 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:38:20  [ main:579 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:38:20  [ main:580 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=fc2d7bca-256d-440f-868d-2bf8c1eedce5&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A38%3A19Z&Version=2015-01-09
+2017-06-08 17:38:20  [ main:580 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dfc2d7bca-256d-440f-868d-2bf8c1eedce5%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A38%253A19Z%26Version%3D2015-01-09
+2017-06-08 17:38:20  [ main:810 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:38:20  [ main:810 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:38:20  [ main:812 ] - [ INFO ]  【将HMAC值进行base64编码后】: eqv9BBUoPx8TsIGxw594yBhRCAc=
+2017-06-08 17:38:20  [ main:812 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=fc2d7bca-256d-440f-868d-2bf8c1eedce5&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A38%3A19Z&Version=2015-01-09&Signature=eqv9BBUoPx8TsIGxw594yBhRCAc%3D
+2017-06-08 17:39:15  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:39:15  [ main:156 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:fe523a14-a13e-4687-b9ca-101e9704bd83)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:39:15Z)	
+2017-06-08 17:39:15  [ main:158 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:39:15  [ main:160 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:39:15  [ main:160 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=fe523a14-a13e-4687-b9ca-101e9704bd83&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A39%3A15Z&Version=2015-01-09
+2017-06-08 17:39:15  [ main:161 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dfe523a14-a13e-4687-b9ca-101e9704bd83%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A39%253A15Z%26Version%3D2015-01-09
+2017-06-08 17:39:15  [ main:379 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:39:15  [ main:379 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:39:15  [ main:380 ] - [ INFO ]  【将HMAC值进行base64编码后】: sPenfFY66w2GQfXF0TDV0hA448w=
+2017-06-08 17:39:15  [ main:380 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=fe523a14-a13e-4687-b9ca-101e9704bd83&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A39%3A15Z&Version=2015-01-09&Signature=sPenfFY66w2GQfXF0TDV0hA448w%3D
+2017-06-08 17:51:53  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:51:53  [ main:175 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:b691e34a-3ad9-4246-985a-5596e318851f)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:51:53Z)	
+2017-06-08 17:51:53  [ main:177 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:51:53  [ main:180 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:51:53  [ main:181 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=b691e34a-3ad9-4246-985a-5596e318851f&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A51%3A53Z&Version=2015-01-09
+2017-06-08 17:51:53  [ main:182 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Db691e34a-3ad9-4246-985a-5596e318851f%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A51%253A53Z%26Version%3D2015-01-09
+2017-06-08 17:51:53  [ main:395 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:51:53  [ main:395 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:51:53  [ main:396 ] - [ INFO ]  【将HMAC值进行base64编码后】: 1amwu4dNEV8I/TOTVWSmhsPP1gc=
+2017-06-08 17:51:53  [ main:396 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=b691e34a-3ad9-4246-985a-5596e318851f&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A51%3A53Z&Version=2015-01-09&Signature=1amwu4dNEV8I%2FTOTVWSmhsPP1gc%3D
+2017-06-08 17:58:52  [ main:0 ] - [ INFO ]  auto: true
+2017-06-08 17:58:53  [ main:140 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:c9bc1712-83f0-456c-a6a7-d4bc1e94f6af)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-08T09:58:52Z)	
+2017-06-08 17:58:53  [ main:142 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-08 17:58:53  [ main:144 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-08 17:58:53  [ main:144 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=c9bc1712-83f0-456c-a6a7-d4bc1e94f6af&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A58%3A52Z&Version=2015-01-09
+2017-06-08 17:58:53  [ main:146 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Dc9bc1712-83f0-456c-a6a7-d4bc1e94f6af%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-08T09%253A58%253A52Z%26Version%3D2015-01-09
+2017-06-08 17:58:53  [ main:395 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-08 17:58:53  [ main:395 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-08 17:58:53  [ main:395 ] - [ INFO ]  【将HMAC值进行base64编码后】: JDdUNfdOyRDT2SZj+imI7fReVjk=
+2017-06-08 17:58:53  [ main:396 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=c9bc1712-83f0-456c-a6a7-d4bc1e94f6af&SignatureVersion=1.0&Timestamp=2017-06-08T09%3A58%3A52Z&Version=2015-01-09&Signature=JDdUNfdOyRDT2SZj%2BimI7fReVjk%3D
