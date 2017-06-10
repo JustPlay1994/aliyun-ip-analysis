@@ -2,19 +2,24 @@ package aliyunApi;
 
 
 import com.aliyuncs.utils.Base64Helper;
+import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.log4j.*;
 import org.junit.Test;
 
+import org.apache.commons.httpclient.*;
+
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+import java.io.*;
+import java.net.*;
 import java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Base64;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.aliyuncs.profile.DefaultProfile;
 import sun.misc.BASE64Encoder;
@@ -196,4 +201,153 @@ public class Test1 {
 
 
     }
+
+    @Test
+    public void xxxxx(){
+        String ip = "10.0.1.1";
+        CustomSystemUtil customSystemUtil = new CustomSystemUtil();
+        ip = customSystemUtil.getInternetIp();
+        System.out.println(ip);
+
+        Socket socket = new Socket();
+
+    }
+
+    @Test
+    public void tcpip(){
+        String server = new String("www.baidu.com");
+        int port = 80;
+        System.out.println("server: " + server + ", port: " + port);
+        try {
+            Socket socket = new Socket(server,port);
+            System.out.println(socket);
+            InputStream in = socket.getInputStream();
+            OutputStream out = socket.getOutputStream();
+
+            byte[] data = new String("").getBytes();
+            out.write(data);    // Send the encoded string to the server
+
+
+            // Receive the same string back from the server
+            int totalBytesRcvd = 0; // Total bytes received so far
+            int bytesRcvd; // Bytes received in last read
+            while (totalBytesRcvd < data.length) {
+                if ((bytesRcvd = in.read(data, totalBytesRcvd,
+                        data.length - totalBytesRcvd)) == -1)
+                    try {
+                        throw new SocketException("Connection closed prematurely");
+                    } catch (SocketException e) {
+                        e.printStackTrace();
+                    }
+                totalBytesRcvd += bytesRcvd;
+                System.out.println("Received: " + new String(data));
+                socket.close(); // Close the socket and its streams
+
+
+
+            } // data array is full
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    @Test
+    public void httpget(){
+//        try {
+//            HttpClient client = new HttpClient();//定义client对象
+//            client.getHttpConnectionManager().getParams().setConnectionTimeout(2000);//设置连接超时时间为2秒（连接初始化时间）
+//            GetMethod method = new GetMethod("https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=ip&rsv_spt=1&oq=commons-httpclient-%2526lt%253B.0%2520maven&rsv_pq=c38d2ea00003f0a3&rsv_t=c759jopnYhN2rGZwHD9WR%2FqCZhmDE0UQdHeBEo6bW5DpcxhZRi%2BV7oU5528I56MG1KvP&rqlang=cn&rsv_enter=1&rsv_sug3=24&rsv_sug1=19&rsv_sug7=100&rsv_sug2=0&inputT=327053&rsv_sug4=327054");//百度公网ip
+//            int statusCode = 0;//状态，一般200为OK状态，其他情况会抛出如404,500,403等错误
+//            try {
+//                statusCode = client.executeMethod(method);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            if (statusCode != HttpStatus.SC_OK) {
+//                System.out.println("远程访问失败。");
+//            }
+//            try {
+//                String content = method.getResponseBodyAsString();
+//                System.out.println(content);//输出反馈结果
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            client.getHttpConnectionManager().closeIdleConnections(1);
+//        }catch(Exception e){
+//            System.out.print(e);
+//        }
+
+
+        try {
+            String key = "ip"; //查询关键字
+            key = URLEncoder.encode(key, "gb2312");
+            URL u1 = new URL("https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=ip&rsv_spt=1&oq=commons-httpclient-%2526lt%253B.0%2520maven&rsv_pq=c38d2ea00003f0a3&rsv_t=c759jopnYhN2rGZwHD9WR%2FqCZhmDE0UQdHeBEo6bW5DpcxhZRi%2BV7oU5528I56MG1KvP&rqlang=cn&rsv_enter=1&rsv_sug3=24&rsv_sug1=19&rsv_sug7=100&rsv_sug2=0&inputT=327053&rsv_sug4=327054" + key + "&cl=3");
+            URL u = new URL("http://www.baidu.com.cn/s?wd="+ key + "&cl=3");
+            URLConnection conn = u.openConnection();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(
+                    conn.getInputStream(), "gb2312"));
+            String str = reader.readLine();
+            String content="";
+            while (str != null) {
+                content+=str;
+//                System.out.println(str);
+
+                str = reader.readLine();
+            }
+
+//            fk="3.3.3.3"
+            int a = 0;
+            if (content != null) {
+                a = content.indexOf("fk=\"");
+            }
+
+            int i=a;
+
+            String ip = "";
+            while(true){
+                if(content.charAt(i)=='\"'){
+                    while(true){
+                        i++;
+                        if(content.charAt(i)=='\"'){
+                            break;
+                        }
+                        ip+=content.charAt(i);
+                    }
+                    break;
+                }
+                i++;
+
+            }
+            System.out.println(ip);
+
+            reader.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @Test
+    public static void main(String[] args){
+        // run in a second
+        final long timeInterval = 10000;
+        Runnable runnable = new Runnable() {
+            public void run() {
+                while (true) {
+                    // ------- code for task to run
+                    System.out.println("Hello !!");
+                    // ------- ends here
+                    try {
+                        Thread.sleep(timeInterval);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+
 }
