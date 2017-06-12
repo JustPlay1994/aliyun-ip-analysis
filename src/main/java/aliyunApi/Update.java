@@ -102,6 +102,7 @@ public class Update {
             reader.close();
         } catch (Exception ex) {
             ex.printStackTrace();
+            logger.error(ex);
         }
 
 
@@ -116,8 +117,10 @@ public class Update {
             id2 = list.get(1);
         } catch (ServerException e) {
             e.printStackTrace();
+            logger.error(e);
         } catch (ClientException e) {
             e.printStackTrace();
+            logger.error(e);
         }
 
         if(id1.getValue().equals(publicIp)){
@@ -137,8 +140,10 @@ public class Update {
             logger.info(updateDomainRecordResponse.getRecordId() + " " + updateDomainRecordResponse.getRequestId() + " ");
         }catch (ServerException e){
             e.printStackTrace();
+            logger.error(e);
         }catch (ClientException e) {
             e.printStackTrace();
+            logger.error(e);
         }
 
         UpdateDomainRecordRequest updateDomainRecordRequest1 = new UpdateDomainRecordRequest();
@@ -151,11 +156,13 @@ public class Update {
         updateDomainRecordRequest1.setValue(publicIp);
         try{
             updateDomainRecordResponse1 = client.getAcsResponse(updateDomainRecordRequest1);
-            logger.info(updateDomainRecordResponse1.getRecordId() + " " + updateDomainRecordResponse1.getRequestId() + " ");
+            logger.info("ActionName: UpdateDomainRecord, RecordId: "+updateDomainRecordResponse1.getRecordId() + ", RequestId: " + updateDomainRecordResponse1.getRequestId());
         }catch (ServerException e){
             e.printStackTrace();
+            logger.error(e);
         }catch (ClientException e) {
             e.printStackTrace();
+            logger.error(e);
         }
         return true;
     }
@@ -165,7 +172,7 @@ public class Update {
     public static void main(String[] args) {
 
 
-        final long timeInterval = 10000;
+        final long timeInterval = 60000;
         Runnable runnable = new Runnable() {
             public void run() {
                 while (true) {
@@ -180,6 +187,7 @@ public class Update {
                         Thread.sleep(timeInterval);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        logger.error(e);
                     }
                 }
             }

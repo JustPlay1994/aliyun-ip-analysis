@@ -1,0 +1,1463 @@
+2017-06-09 09:01:15  [ main:0 ] - [ INFO ]  auto: true
+2017-06-09 09:01:16  [ main:801 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:0e9e294a-8df8-4488-a61e-ad542c823e4f)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-09T01:01:15Z)	
+2017-06-09 09:01:16  [ main:803 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 09:01:16  [ main:806 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 09:01:16  [ main:807 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=0e9e294a-8df8-4488-a61e-ad542c823e4f&SignatureVersion=1.0&Timestamp=2017-06-09T01%3A01%3A15Z&Version=2015-01-09
+2017-06-09 09:01:16  [ main:808 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D0e9e294a-8df8-4488-a61e-ad542c823e4f%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-09T01%253A01%253A15Z%26Version%3D2015-01-09
+2017-06-09 09:01:16  [ main:1063 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 09:01:16  [ main:1063 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-09 09:01:16  [ main:1064 ] - [ INFO ]  【将HMAC值进行base64编码后】: Mnzb1LPrWu4ZF96p/3ttZp9wUJo=
+2017-06-09 09:01:16  [ main:1064 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=0e9e294a-8df8-4488-a61e-ad542c823e4f&SignatureVersion=1.0&Timestamp=2017-06-09T01%3A01%3A15Z&Version=2015-01-09&Signature=Mnzb1LPrWu4ZF96p%2F3ttZp9wUJo%3D
+2017-06-09 09:36:10  [ main:0 ] - [ INFO ]  auto: true
+2017-06-09 09:36:10  [ main:185 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:f3effb8e-5683-4698-9ae5-7e5f4373c15a)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-09T01:36:10Z)	
+2017-06-09 09:36:10  [ main:187 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 09:36:10  [ main:189 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 09:36:10  [ main:189 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=f3effb8e-5683-4698-9ae5-7e5f4373c15a&SignatureVersion=1.0&Timestamp=2017-06-09T01%3A36%3A10Z&Version=2015-01-09
+2017-06-09 09:36:10  [ main:190 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3Df3effb8e-5683-4698-9ae5-7e5f4373c15a%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-09T01%253A36%253A10Z%26Version%3D2015-01-09
+2017-06-09 09:36:10  [ main:467 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 09:36:10  [ main:468 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-09 09:36:10  [ main:468 ] - [ INFO ]  【将HMAC值进行base64编码后】: qYkpgKL6m0jk4U1XDUmRwyY1vnY=
+2017-06-09 09:36:10  [ main:468 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=f3effb8e-5683-4698-9ae5-7e5f4373c15a&SignatureVersion=1.0&Timestamp=2017-06-09T01%3A36%3A10Z&Version=2015-01-09&Signature=qYkpgKL6m0jk4U1XDUmRwyY1vnY%3D
+2017-06-09 09:58:12  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 09:58:12  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 09:58:12  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 09:58:12  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 09:58:12  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 09:58:12  [ main:8 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 09:58:12  [ main:195 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 09:58:12  [ main:196 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 09:58:12  [ main:197 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-09 09:58:12  [ main:197 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-09 10:16:16  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:16:16  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:16:16  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:16:16  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:16:16  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:16:16  [ main:8 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:16:16  [ main:8 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:16:16  [ main:235 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:16:16  [ main:236 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:16:16  [ main:236 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-09 10:16:16  [ main:236 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-09 10:19:35  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:19:35  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:19:35  [ main:5 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:19:35  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:19:35  [ main:8 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:19:35  [ main:9 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:19:35  [ main:10 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:19:35  [ main:10 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:19:35  [ main:218 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:19:35  [ main:218 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:19:35  [ main:219 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-09 10:19:35  [ main:219 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-09 10:20:07  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:20:07  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:20:07  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:20:07  [ main:6 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:20:07  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:20:07  [ main:7 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:20:07  [ main:7 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:20:07  [ main:7 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:20:07  [ main:240 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:20:07  [ main:240 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:20:07  [ main:241 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-09 10:20:07  [ main:241 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-09 10:20:26  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:20:26  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:20:26  [ main:3 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:20:26  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:20:26  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:20:26  [ main:6 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:20:26  [ main:7 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:20:26  [ main:7 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:20:26  [ main:214 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:20:26  [ main:214 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:20:26  [ main:215 ] - [ INFO ]  【将HMAC值进行base64编码后】: NS5x6fwFsqIv2aDVs7URKn+5az8=
+2017-06-09 10:20:26  [ main:215 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=NS5x6fwFsqIv2aDVs7URKn%2B5az8%3D
+2017-06-09 10:22:45  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:22:45  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:22:45  [ main:3 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:22:45  [ main:5 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:22:45  [ main:6 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:22:45  [ main:6 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:22:45  [ main:7 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:22:45  [ main:7 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:22:46  [ main:332 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:22:46  [ main:332 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:22:46  [ main:333 ] - [ INFO ]  【将HMAC值进行base64编码后】: pvBWF6d5bFTF37AFTho+6E7K0O4=
+2017-06-09 10:22:46  [ main:333 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=pvBWF6d5bFTF37AFTho%2B6E7K0O4%3D
+2017-06-09 10:22:58  [ main:0 ] - [ INFO ]  auto: false
+2017-06-09 10:22:58  [ main:2 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeRegions)	(Format:XML)	(SignatureNonce:3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf)	(Version:2014-05-26)	(AccessKeyId:testid)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2016-02-23T12:46:24Z)	
+2017-06-09 10:22:58  [ main:4 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:22:58  [ main:7 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:22:58  [ main:7 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26
+2017-06-09 10:22:58  [ main:8 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3Dtestid%26Action%3DDescribeRegions%26Format%3DXML%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf%26SignatureVersion%3D1.0%26Timestamp%3D2016-02-23T12%253A46%253A24Z%26Version%3D2014-05-26
+2017-06-09 10:22:58  [ main:9 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:22:58  [ main:9 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeRegions&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&Timestamp%3D2016-02-23T12%3A46%3A24Z&Version%3D2014-05-26
+2017-06-09 10:22:58  [ main:272 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: testsecret&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:22:58  [ main:272 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@4e04a765
+2017-06-09 10:22:58  [ main:273 ] - [ INFO ]  【将HMAC值进行base64编码后】: pvBWF6d5bFTF37AFTho+6E7K0O4=
+2017-06-09 10:22:58  [ main:273 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=testid&Action=DescribeRegions&Format=XML&SignatureMethod=HMAC-SHA1&SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion=1.0&Timestamp=2016-02-23T12%3A46%3A24Z&Version=2014-05-26&Signature=pvBWF6d5bFTF37AFTho%2B6E7K0O4%3D
+2017-06-09 10:30:30  [ main:0 ] - [ INFO ]  auto: true
+2017-06-09 10:30:30  [ main:415 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:778d3199-fd2b-46b5-9f55-7f264d21d9e8)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-09T02:30:30Z)	
+2017-06-09 10:30:30  [ main:417 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:30:30  [ main:419 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:30:30  [ main:419 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=778d3199-fd2b-46b5-9f55-7f264d21d9e8&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A30%3A30Z&Version=2015-01-09
+2017-06-09 10:30:30  [ main:420 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D778d3199-fd2b-46b5-9f55-7f264d21d9e8%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-09T02%253A30%253A30Z%26Version%3D2015-01-09
+2017-06-09 10:30:30  [ main:420 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D778d3199-fd2b-46b5-9f55-7f264d21d9e8&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A30%3A30Z&Version%3D2015-01-09
+2017-06-09 10:30:30  [ main:420 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D778d3199-fd2b-46b5-9f55-7f264d21d9e8&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A30%3A30Z&Version%3D2015-01-09
+2017-06-09 10:30:30  [ main:602 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:30:30  [ main:602 ] - [ INFO ]  【Hmac-SHA1】结果： 	[B@17550481
+2017-06-09 10:30:30  [ main:603 ] - [ INFO ]  【将HMAC值进行base64编码后】: jcHkPGb2+7QocqnMX8VP+QzD+EA=
+2017-06-09 10:30:30  [ main:603 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=778d3199-fd2b-46b5-9f55-7f264d21d9e8&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A30%3A30Z&Version=2015-01-09&Signature=jcHkPGb2%2B7QocqnMX8VP%2BQzD%2BEA%3D
+2017-06-09 10:37:06  [ main:0 ] - [ INFO ]  auto: true
+2017-06-09 10:37:06  [ main:149 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:e137be0a-bb8a-463d-b293-1fa26e08565d)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-09T02:37:06Z)	
+2017-06-09 10:37:06  [ main:151 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:37:06  [ main:153 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:37:06  [ main:154 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=e137be0a-bb8a-463d-b293-1fa26e08565d&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A37%3A06Z&Version=2015-01-09
+2017-06-09 10:37:06  [ main:154 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3De137be0a-bb8a-463d-b293-1fa26e08565d%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-09T02%253A37%253A06Z%26Version%3D2015-01-09
+2017-06-09 10:37:06  [ main:154 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3De137be0a-bb8a-463d-b293-1fa26e08565d&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A37%3A06Z&Version%3D2015-01-09
+2017-06-09 10:37:06  [ main:154 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3De137be0a-bb8a-463d-b293-1fa26e08565d&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A37%3A06Z&Version%3D2015-01-09
+2017-06-09 10:37:06  [ main:386 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:37:06  [ main:387 ] - [ INFO ]  【Hmac-SHA1】结果： [B@17550481
+2017-06-09 10:37:06  [ main:387 ] - [ INFO ]  【将HMAC值进行base64编码后】: pVRTFETJ6pxGkalvvmqz772uLq8=
+2017-06-09 10:37:06  [ main:387 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=e137be0a-bb8a-463d-b293-1fa26e08565d&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A37%3A06Z&Version=2015-01-09&Signature=pVRTFETJ6pxGkalvvmqz772uLq8%3D
+2017-06-09 10:47:28  [ main:0 ] - [ INFO ]  auto: true
+2017-06-09 10:47:28  [ main:188 ] - [ INFO ]  【所有变量的值】: (SignatureVersion:1.0)	(Action:DescribeDomains)	(Format:json)	(SignatureNonce:5dd2ae2b-4939-4113-ab36-871fdea88014)	(Version:2015-01-09)	(AccessKeyId:LTAImKyenyClI8EV)	(SignatureMethod:HMAC-SHA1)	(Timestamp:2017-06-09T02:47:28Z)	
+2017-06-09 10:47:28  [ main:191 ] - [ INFO ]  【排序后的串】AccessKeyId, Action, Format, SignatureMethod, SignatureNonce, SignatureVersion, Timestamp, Version, 
+2017-06-09 10:47:28  [ main:194 ] - [ INFO ]  【待签名前半部分】: GET&%2F&
+2017-06-09 10:47:28  [ main:196 ] - [ INFO ]  【待签名标签后半部分】,对变量名和值分别进行RFC3986规范编码: 
+&AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5dd2ae2b-4939-4113-ab36-871fdea88014&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A47%3A28Z&Version=2015-01-09
+2017-06-09 10:47:28  [ main:198 ] - [ INFO ]  【待签名字符串已组完】对整个待签名标签后半部分，进行RFC3986规范编码后，追加到前半部分中: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV%26Action%3DDescribeDomains%26Format%3Djson%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D5dd2ae2b-4939-4113-ab36-871fdea88014%26SignatureVersion%3D1.0%26Timestamp%3D2017-06-09T02%253A47%253A28Z%26Version%3D2015-01-09
+2017-06-09 10:47:28  [ main:199 ] - [ INFO ]  【待签名标签后半部分进行编码】,保留&: 
+&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D5dd2ae2b-4939-4113-ab36-871fdea88014&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A47%3A28Z&Version%3D2015-01-09
+2017-06-09 10:47:28  [ main:200 ] - [ INFO ]  【待签名字符串组完】,保留了&: 
+GET&%2F&AccessKeyId%3DLTAImKyenyClI8EV&Action%3DDescribeDomains&Format%3Djson&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D5dd2ae2b-4939-4113-ab36-871fdea88014&SignatureVersion%3D1.0&Timestamp%3D2017-06-09T02%3A47%3A28Z&Version%3D2015-01-09
+2017-06-09 10:47:28  [ main:424 ] - [ INFO ]  【Hmac-SHA1】使用的密码是: oTMsL9jLrI8ClagbPFSHi9SobjSBxq&, 使用的编码是: UTF-8, 使用的算法是: HmacSHA1
+2017-06-09 10:47:28  [ main:424 ] - [ INFO ]  【Hmac-SHA1】结果： [B@17550481
+2017-06-09 10:47:28  [ main:424 ] - [ INFO ]  【将HMAC值进行base64编码后】: 8ylIDNMxI/1TEmc5HqETrslz+Uk=
+2017-06-09 10:47:28  [ main:425 ] - [ INFO ]  【对所有变量和值分别进行规范化RFC3986编码的url】: 
+http://alidns.aliyuncs.com/?AccessKeyId=LTAImKyenyClI8EV&Action=DescribeDomains&Format=json&SignatureMethod=HMAC-SHA1&SignatureNonce=5dd2ae2b-4939-4113-ab36-871fdea88014&SignatureVersion=1.0&Timestamp=2017-06-09T02%3A47%3A28Z&Version=2015-01-09&Signature=8ylIDNMxI%2F1TEmc5HqETrslz%2BUk%3D
+2017-06-10 19:18:07  [ main:0 ] - [ INFO ]  justplay1994.win 3400682181400576 183.17.227.6 www
+2017-06-10 19:18:07  [ main:2 ] - [ INFO ]  justplay1994.win 3400682183153664 183.17.227.6 @
+2017-06-10 19:19:23  [ main:0 ] - [ INFO ]  justplay1994.win 3400682181400576 183.17.227.6 www
+2017-06-10 19:19:23  [ main:3 ] - [ INFO ]  justplay1994.win 3400682183153664 183.17.227.6 @
+2017-06-10 19:21:07  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.227.6, RR: www, type: A
+2017-06-10 19:21:07  [ main:2 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.227.6, RR: @, type: A
+2017-06-10 19:21:07  [ main:298 ] - [ INFO ]  3400682181400576 72FDC85C-AA95-4401-921B-0EFEB490B1F6 
+2017-06-10 19:22:58  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 10.0.0.1, RR: www, type: A
+2017-06-10 19:22:58  [ main:3 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.227.6, RR: @, type: A
+2017-06-10 19:22:58  [ main:290 ] - [ INFO ]  3400682181400576 030C0FA5-E877-431D-8B04-C8189DDACFBA 
+2017-06-10 19:24:34  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 10.0.1.1, RR: www, type: A
+2017-06-10 19:24:34  [ main:2 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.227.6, RR: @, type: A
+2017-06-10 19:24:35  [ main:387 ] - [ INFO ]  3400682183153664 67F4E5CB-65C6-49E7-9B7D-FCBF77B840FD 
+2017-06-10 20:53:52  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:53:52  [ main:5 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:53:52  [ main:5 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:53:52  [ main:11 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:53:52  [ main:12 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:53:52  [ main:12 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:53:52  [ main:94 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:53:52  [ main:96 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:53:52  [ main:96 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:53:52  [ main:97 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:53:52  [ main:98 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:53:52  [ main:98 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:53:52  [ main:99 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:53:52  [ main:102 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:53:52  [ main:104 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:53:52  [ main:105 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:53:52  [ main:111 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:53:52  [ main:121 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:53:52  [ main:126 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:53:52  [ main:128 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:53:52  [ main:134 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:53:52  [ main:136 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:53:52  [ main:139 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64cee07
+2017-06-10 20:53:52  [ main:140 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:53:52  [ main:148 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:53:52  [ main:171 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:53:52  [ main:172 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:53:52  [ main:172 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:53:52  [ main:183 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:53:52  [ main:183 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:53:52  [ main:184 ] - [ DEBUG ]  Open connection to www.google.com.hk:80
+2017-06-10 20:53:52  [ main:465 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:465 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:466 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:466 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:53:52  [ main:468 ] - [ DEBUG ]  >> "GET / HTTP/1.1[\r][\n]"
+2017-06-10 20:53:52  [ main:468 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:53:52  [ main:469 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:53:52  [ main:469 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:53:52  [ main:469 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:53:52  [ main:471 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:472 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:472 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:474 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:53:52  [ main:474 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:482 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:53:52  [ main:483 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:53:52  [ main:483 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:484 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:53:52  [ main:484 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:53:52  [ main:484 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:53:52  [ main:485 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:53:52  [ main:485 ] - [ DEBUG ]  >> "Host: www.google.com.hk[\r][\n]"
+2017-06-10 20:53:52  [ main:486 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:53:52  [ main:487 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:53:52  [ main:487 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:53:52  [ main:488 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:53:52  [ main:488 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:53:52  [ main:488 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:53:52  [ main:489 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:53:52  [ main:489 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:53:52  [ main:490 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:490 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:53:52  [ main:491 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:53:52  [ main:493 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:53:52  [ main:493 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:53:52  [ main:503 ] - [ DEBUG ]  Closing the connection.
+2017-06-10 20:53:52  [ main:503 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:53:52  [ main:503 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:53:52  [ main:504 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+2017-06-10 20:53:52  [ main:505 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:53:52  [ main:505 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:53:52  [ main:512 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:53:52  [ main:513 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:54:10  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:54:10  [ main:5 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:54:10  [ main:6 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:54:10  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:54:10  [ main:11 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:54:10  [ main:11 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:54:10  [ main:111 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:54:10  [ main:112 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:54:10  [ main:112 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:54:10  [ main:113 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:54:10  [ main:114 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:54:10  [ main:114 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:54:10  [ main:115 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:54:10  [ main:116 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:54:10  [ main:117 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:54:10  [ main:118 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:54:10  [ main:122 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:54:10  [ main:124 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:54:10  [ main:126 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:54:10  [ main:127 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:54:10  [ main:127 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:54:10  [ main:128 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:54:10  [ main:130 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64cee07
+2017-06-10 20:54:10  [ main:131 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:54:10  [ main:137 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:54:10  [ main:160 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:54:10  [ main:161 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:54:10  [ main:161 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:54:10  [ main:171 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:54:10  [ main:171 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:54:10  [ main:172 ] - [ DEBUG ]  Open connection to www.baidu.com:80
+2017-06-10 20:54:10  [ main:194 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:194 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:195 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:196 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:54:10  [ main:197 ] - [ DEBUG ]  >> "GET / HTTP/1.1[\r][\n]"
+2017-06-10 20:54:10  [ main:198 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:54:10  [ main:199 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:54:10  [ main:199 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:54:10  [ main:200 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:54:10  [ main:201 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:203 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:54:10  [ main:204 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:211 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:54:10  [ main:211 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:54:10  [ main:212 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:212 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:54:10  [ main:213 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:54:10  [ main:213 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:54:10  [ main:214 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:54:10  [ main:214 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 20:54:10  [ main:215 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:54:10  [ main:215 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:54:10  [ main:216 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:54:10  [ main:217 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:54:10  [ main:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:54:10  [ main:218 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:54:10  [ main:218 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:54:10  [ main:219 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:54:10  [ main:219 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:220 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:221 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:54:10  [ main:223 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:223 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:233 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:54:10  [ main:233 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:54:10  [ main:235 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 20:54:10  [ main:235 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:54:10  [ main:236 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 20:54:10  [ main:236 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:237 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:237 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 20:54:10  [ main:238 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:238 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:238 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 12:54:17 GMT[\r][\n]"
+2017-06-10 20:54:10  [ main:239 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:239 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:240 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 20:54:10  [ main:242 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:242 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:243 ] - [ DEBUG ]  << "Content-Length: 2381[\r][\n]"
+2017-06-10 20:54:10  [ main:243 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:243 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:244 ] - [ DEBUG ]  << "Last-Modified: Mon, 23 Jan 2017 13:27:47 GMT[\r][\n]"
+2017-06-10 20:54:10  [ main:245 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:245 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:246 ] - [ DEBUG ]  << "Connection: Keep-Alive[\r][\n]"
+2017-06-10 20:54:10  [ main:246 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:247 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:247 ] - [ DEBUG ]  << "ETag: "588604d3-94d"[\r][\n]"
+2017-06-10 20:54:10  [ main:247 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:248 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:248 ] - [ DEBUG ]  << "Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform[\r][\n]"
+2017-06-10 20:54:10  [ main:249 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:249 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:250 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 20:54:10  [ main:250 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:250 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:251 ] - [ DEBUG ]  << "Set-Cookie: BDORZ=27315; max-age=86400; domain=.baidu.com; path=/[\r][\n]"
+2017-06-10 20:54:10  [ main:252 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:252 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:252 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 20:54:10  [ main:253 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:54:10  [ main:253 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:54:10  [ main:254 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 20:54:10  [ main:254 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:255 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:255 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:54:10  [ main:255 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:54:10  [ main:256 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:54:10  [ main:258 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:54:10  [ main:258 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:54:10  [ main:259 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:54:10  [ main:259 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:54:10  [ main:260 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:54:10  [ main:260 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDORZ=27315; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:54:10  [ main:261 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 20:54:10  [ main:261 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 20:54:10  [ main:262 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:54:10  [ main:262 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 20:54:10  [ main:263 ] - [ DEBUG ]  Buffering response body
+2017-06-10 20:54:10  [ main:264 ] - [ DEBUG ]  << "<!DOCTYPE html>[\r][\n]"
+2017-06-10 20:54:10  [ main:264 ] - [ DEBUG ]  << "<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b][0xef][0xbc][0x8c][0xe4][0xbd][0xa0][0xe5][0xb0][0xb1][0xe7][0x9f][0xa5][0xe9][0x81][0x93]</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b] class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>[0xe6][0x96][0xb0][0xe9][0x97][0xbb]</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>[0xe5][0x9c][0xb0][0xe5][0x9b][0xbe]</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>[0xe8][0xa7][0x86][0xe9][0xa2][0x91]</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>[0xe8][0xb4][0xb4][0xe5][0x90][0xa7]</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">[0xe6][0x9b][0xb4][0xe5][0xa4][0x9a][0xe4][0xba][0xa7][0xe5][0x93][0x81]</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>[0xe5][0x85][0xb3][0xe4][0xba][0x8e][0xe7][0x99][0xbe][0xe5][0xba][0xa6]</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>[0xe4][0xbd][0xbf][0xe7][0x94][0xa8][0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe5][0x89][0x8d][0xe5][0xbf][0x85][0xe8][0xaf][0xbb]</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>[0xe6][0x84][0x8f][0xe8][0xa7][0x81][0xe5][0x8f][0x8d][0xe9][0xa6][0x88]</a>&nbsp;[0xe4][0xba][0xac]ICP[0xe8][0xaf][0x81]030173[0xe5][0x8f][0xb7]&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>[\r][\n]"
+2017-06-10 20:54:10  [ main:270 ] - [ DEBUG ]  Should NOT close connection in response to directive: Keep-Alive
+2017-06-10 20:54:10  [ main:271 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 20:54:10  [ main:272 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:54:10  [ main:272 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:54:10  [ main:273 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 20:54:10  [ main:274 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 20:54:10  [ main:274 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:54:10  [ main:275 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 20:54:10  [ main:275 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 20:54:10  [ main:280 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:54:10  [ main:281 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:56:01  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:56:01  [ main:7 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:56:01  [ main:8 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:56:01  [ main:13 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:56:01  [ main:14 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:56:01  [ main:14 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:56:01  [ main:104 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:56:01  [ main:105 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:56:01  [ main:105 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:56:01  [ main:106 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:56:01  [ main:107 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:56:01  [ main:107 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:56:01  [ main:108 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:56:01  [ main:109 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:56:01  [ main:109 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:56:01  [ main:110 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:56:01  [ main:114 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:56:01  [ main:117 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:56:01  [ main:119 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:56:01  [ main:120 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:56:01  [ main:121 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:56:01  [ main:122 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:56:01  [ main:124 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@17776a8
+2017-06-10 20:56:01  [ main:125 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:56:01  [ main:133 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:56:01  [ main:163 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:56:01  [ main:164 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:56:01  [ main:164 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:56:01  [ main:175 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:56:01  [ main:176 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:56:01  [ main:176 ] - [ DEBUG ]  Open connection to www.baidu.com:80
+2017-06-10 20:56:01  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:209 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:210 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:211 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:56:01  [ main:213 ] - [ DEBUG ]  >> "GET / HTTP/1.1[\r][\n]"
+2017-06-10 20:56:01  [ main:213 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:01  [ main:214 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:01  [ main:214 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:01  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:01  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:217 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:218 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:220 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:56:01  [ main:221 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:233 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:56:01  [ main:234 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:56:01  [ main:234 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:235 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:56:01  [ main:236 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:01  [ main:236 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:01  [ main:237 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:01  [ main:237 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 20:56:01  [ main:239 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:01  [ main:240 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:01  [ main:241 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:01  [ main:241 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:56:01  [ main:242 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:01  [ main:242 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:01  [ main:243 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:56:01  [ main:243 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:56:01  [ main:244 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:244 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:245 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:56:01  [ main:246 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:247 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:252 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:01  [ main:253 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:01  [ main:254 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:01  [ main:255 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:01  [ main:255 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 20:56:01  [ main:256 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:256 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:257 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 20:56:01  [ main:257 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:258 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:258 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 12:56:08 GMT[\r][\n]"
+2017-06-10 20:56:01  [ main:259 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:260 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:261 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 20:56:01  [ main:261 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:261 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:262 ] - [ DEBUG ]  << "Content-Length: 2381[\r][\n]"
+2017-06-10 20:56:01  [ main:262 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:262 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:263 ] - [ DEBUG ]  << "Last-Modified: Mon, 23 Jan 2017 13:27:48 GMT[\r][\n]"
+2017-06-10 20:56:01  [ main:263 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:264 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:264 ] - [ DEBUG ]  << "Connection: Keep-Alive[\r][\n]"
+2017-06-10 20:56:01  [ main:265 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:265 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:265 ] - [ DEBUG ]  << "ETag: "588604d4-94d"[\r][\n]"
+2017-06-10 20:56:01  [ main:265 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:266 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:267 ] - [ DEBUG ]  << "Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform[\r][\n]"
+2017-06-10 20:56:01  [ main:267 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:267 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:268 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 20:56:01  [ main:268 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:269 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:269 ] - [ DEBUG ]  << "Set-Cookie: BDORZ=27315; max-age=86400; domain=.baidu.com; path=/[\r][\n]"
+2017-06-10 20:56:01  [ main:270 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:270 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:271 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 20:56:01  [ main:271 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:01  [ main:272 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:01  [ main:272 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 20:56:01  [ main:272 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:273 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:273 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:56:01  [ main:274 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:56:01  [ main:275 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:01  [ main:276 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:56:01  [ main:277 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:56:01  [ main:278 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:56:01  [ main:278 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:56:01  [ main:279 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:56:01  [ main:279 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDORZ=27315; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:56:01  [ main:280 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 20:56:01  [ main:280 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 20:56:01  [ main:281 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:01  [ main:282 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 20:56:06  [ main:5602 ] - [ DEBUG ]  Buffering response body
+2017-06-10 20:56:06  [ main:5603 ] - [ DEBUG ]  << "<!DOCTYPE html>[\r][\n]"
+2017-06-10 20:56:06  [ main:5608 ] - [ DEBUG ]  << "<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b][0xef][0xbc][0x8c][0xe4][0xbd][0xa0][0xe5][0xb0][0xb1][0xe7][0x9f][0xa5][0xe9][0x81][0x93]</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b] class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>[0xe6][0x96][0xb0][0xe9][0x97][0xbb]</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>[0xe5][0x9c][0xb0][0xe5][0x9b][0xbe]</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>[0xe8][0xa7][0x86][0xe9][0xa2][0x91]</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>[0xe8][0xb4][0xb4][0xe5][0x90][0xa7]</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">[0xe6][0x9b][0xb4][0xe5][0xa4][0x9a][0xe4][0xba][0xa7][0xe5][0x93][0x81]</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>[0xe5][0x85][0xb3][0xe4][0xba][0x8e][0xe7][0x99][0xbe][0xe5][0xba][0xa6]</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>[0xe4][0xbd][0xbf][0xe7][0x94][0xa8][0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe5][0x89][0x8d][0xe5][0xbf][0x85][0xe8][0xaf][0xbb]</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>[0xe6][0x84][0x8f][0xe8][0xa7][0x81][0xe5][0x8f][0x8d][0xe9][0xa6][0x88]</a>&nbsp;[0xe4][0xba][0xac]ICP[0xe8][0xaf][0x81]030173[0xe5][0x8f][0xb7]&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>[\r][\n]"
+2017-06-10 20:56:06  [ main:5628 ] - [ DEBUG ]  Should NOT close connection in response to directive: Keep-Alive
+2017-06-10 20:56:06  [ main:5629 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 20:56:06  [ main:5631 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:56:06  [ main:5632 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:56:06  [ main:5633 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 20:56:06  [ main:5635 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 20:56:06  [ main:5637 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:06  [ main:5638 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 20:56:06  [ main:5639 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 20:56:17  [ main:16428 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:56:17  [ main:16429 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:56:37  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:56:37  [ main:9 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:56:37  [ main:10 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:56:37  [ main:25 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:56:37  [ main:27 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:56:37  [ main:28 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:56:37  [ main:123 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:56:37  [ main:123 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:56:37  [ main:124 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:56:37  [ main:125 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:56:37  [ main:126 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:56:37  [ main:126 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:56:37  [ main:127 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:56:37  [ main:128 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:56:37  [ main:129 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:56:37  [ main:129 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:56:37  [ main:135 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:56:37  [ main:137 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:56:37  [ main:139 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:56:37  [ main:140 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:56:37  [ main:141 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:56:37  [ main:142 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:56:37  [ main:144 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@17776a8
+2017-06-10 20:56:37  [ main:145 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:56:37  [ main:152 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:56:37  [ main:176 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:56:37  [ main:176 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:56:37  [ main:177 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:56:37  [ main:185 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:56:37  [ main:186 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:56:37  [ main:186 ] - [ DEBUG ]  Open connection to www.baidu.com:80
+2017-06-10 20:56:37  [ main:213 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:214 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:214 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:56:37  [ main:217 ] - [ DEBUG ]  >> "GET / HTTP/1.1[\r][\n]"
+2017-06-10 20:56:37  [ main:218 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:37  [ main:226 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:37  [ main:226 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:37  [ main:227 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:37  [ main:228 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:230 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:232 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:232 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:56:37  [ main:233 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:243 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:56:37  [ main:243 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:56:37  [ main:244 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:245 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:56:37  [ main:245 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:37  [ main:246 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:37  [ main:246 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:37  [ main:247 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 20:56:37  [ main:247 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:37  [ main:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:37  [ main:248 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:37  [ main:249 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:56:37  [ main:249 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:37  [ main:249 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:37  [ main:250 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:56:37  [ main:250 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:56:37  [ main:251 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:251 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:252 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:56:37  [ main:254 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:255 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:258 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:37  [ main:259 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:37  [ main:260 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:37  [ main:261 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:37  [ main:261 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 20:56:37  [ main:262 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:263 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:263 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 20:56:37  [ main:264 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:264 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:265 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 12:56:44 GMT[\r][\n]"
+2017-06-10 20:56:37  [ main:265 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:266 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:267 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 20:56:37  [ main:267 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:268 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:268 ] - [ DEBUG ]  << "Content-Length: 2381[\r][\n]"
+2017-06-10 20:56:37  [ main:269 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:269 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:270 ] - [ DEBUG ]  << "Last-Modified: Mon, 23 Jan 2017 13:27:46 GMT[\r][\n]"
+2017-06-10 20:56:37  [ main:270 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:271 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:271 ] - [ DEBUG ]  << "Connection: Keep-Alive[\r][\n]"
+2017-06-10 20:56:37  [ main:272 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:272 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:273 ] - [ DEBUG ]  << "ETag: "588604d2-94d"[\r][\n]"
+2017-06-10 20:56:37  [ main:273 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:273 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:274 ] - [ DEBUG ]  << "Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform[\r][\n]"
+2017-06-10 20:56:37  [ main:275 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:275 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:275 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 20:56:37  [ main:276 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:277 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:277 ] - [ DEBUG ]  << "Set-Cookie: BDORZ=27315; max-age=86400; domain=.baidu.com; path=/[\r][\n]"
+2017-06-10 20:56:37  [ main:278 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:279 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:279 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 20:56:37  [ main:280 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:37  [ main:281 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:37  [ main:281 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 20:56:37  [ main:282 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:282 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:283 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:56:37  [ main:284 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:56:37  [ main:285 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:37  [ main:288 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:56:37  [ main:290 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:56:37  [ main:291 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:56:37  [ main:291 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:56:37  [ main:292 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:56:37  [ main:293 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDORZ=27315; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:56:37  [ main:293 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 20:56:37  [ main:299 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 20:56:37  [ main:301 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:37  [ main:302 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 20:56:37  [ main:304 ] - [ DEBUG ]  Buffering response body
+2017-06-10 20:56:37  [ main:306 ] - [ DEBUG ]  << "<!DOCTYPE html>[\r][\n]"
+2017-06-10 20:56:37  [ main:306 ] - [ DEBUG ]  << "<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b][0xef][0xbc][0x8c][0xe4][0xbd][0xa0][0xe5][0xb0][0xb1][0xe7][0x9f][0xa5][0xe9][0x81][0x93]</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b] class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>[0xe6][0x96][0xb0][0xe9][0x97][0xbb]</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>[0xe5][0x9c][0xb0][0xe5][0x9b][0xbe]</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>[0xe8][0xa7][0x86][0xe9][0xa2][0x91]</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>[0xe8][0xb4][0xb4][0xe5][0x90][0xa7]</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">[0xe6][0x9b][0xb4][0xe5][0xa4][0x9a][0xe4][0xba][0xa7][0xe5][0x93][0x81]</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>[0xe5][0x85][0xb3][0xe4][0xba][0x8e][0xe7][0x99][0xbe][0xe5][0xba][0xa6]</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>[0xe4][0xbd][0xbf][0xe7][0x94][0xa8][0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe5][0x89][0x8d][0xe5][0xbf][0x85][0xe8][0xaf][0xbb]</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>[0xe6][0x84][0x8f][0xe8][0xa7][0x81][0xe5][0x8f][0x8d][0xe9][0xa6][0x88]</a>&nbsp;[0xe4][0xba][0xac]ICP[0xe8][0xaf][0x81]030173[0xe5][0x8f][0xb7]&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>[\r][\n]"
+2017-06-10 20:56:37  [ main:313 ] - [ DEBUG ]  Should NOT close connection in response to directive: Keep-Alive
+2017-06-10 20:56:37  [ main:314 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 20:56:37  [ main:315 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:56:37  [ main:315 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:56:37  [ main:316 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 20:56:37  [ main:316 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 20:56:37  [ main:317 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:37  [ main:317 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 20:56:37  [ main:318 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 20:56:52  [ main:14623 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:56:52  [ main:14624 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:56:56  [ main:1 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:56:56  [ main:8 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:56:56  [ main:9 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:56:56  [ main:17 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:56:56  [ main:19 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:56:56  [ main:20 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:56:56  [ main:147 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:56:56  [ main:148 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:56:56  [ main:149 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:56:56  [ main:150 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:56:56  [ main:151 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:56:56  [ main:152 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:56:56  [ main:152 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:56:56  [ main:153 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:56:56  [ main:154 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:56:56  [ main:154 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:56:56  [ main:160 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:56:56  [ main:162 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:56:56  [ main:164 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:56:56  [ main:165 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:56:56  [ main:167 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:56:56  [ main:167 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:56:56  [ main:170 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64cee07
+2017-06-10 20:56:56  [ main:172 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:56:56  [ main:178 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:56:56  [ main:219 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:56:56  [ main:220 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:56:56  [ main:221 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:56:56  [ main:232 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:56:56  [ main:233 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:56:56  [ main:233 ] - [ DEBUG ]  Open connection to www.baidu.com:80
+2017-06-10 20:56:56  [ main:253 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:254 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:255 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:255 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:56:56  [ main:258 ] - [ DEBUG ]  >> "GET / HTTP/1.1[\r][\n]"
+2017-06-10 20:56:56  [ main:258 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:56  [ main:259 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:56  [ main:260 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:56  [ main:260 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:56  [ main:262 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:262 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:264 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:265 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:56:56  [ main:265 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:277 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:56:56  [ main:278 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:56:56  [ main:279 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:280 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:56:56  [ main:280 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:56  [ main:281 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:56  [ main:281 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:56  [ main:282 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 20:56:56  [ main:282 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:56:56  [ main:283 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:56  [ main:284 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:56  [ main:285 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:56:56  [ main:286 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:56:56  [ main:286 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:56:56  [ main:287 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:56:56  [ main:287 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:56:56  [ main:288 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:289 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:289 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:56:56  [ main:292 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:292 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:294 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:56  [ main:295 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:56:56  [ main:297 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 20:56:56  [ main:297 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:56  [ main:298 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 20:56:56  [ main:299 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:299 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:300 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 20:56:56  [ main:300 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:301 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:301 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 12:57:03 GMT[\r][\n]"
+2017-06-10 20:56:56  [ main:302 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:303 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:303 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 20:56:56  [ main:303 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:304 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:304 ] - [ DEBUG ]  << "Content-Length: 2381[\r][\n]"
+2017-06-10 20:56:56  [ main:304 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:305 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:305 ] - [ DEBUG ]  << "Last-Modified: Mon, 23 Jan 2017 13:27:42 GMT[\r][\n]"
+2017-06-10 20:56:56  [ main:306 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:306 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:307 ] - [ DEBUG ]  << "Connection: Keep-Alive[\r][\n]"
+2017-06-10 20:56:56  [ main:307 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:308 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:308 ] - [ DEBUG ]  << "ETag: "588604ce-94d"[\r][\n]"
+2017-06-10 20:56:56  [ main:309 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:309 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:309 ] - [ DEBUG ]  << "Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform[\r][\n]"
+2017-06-10 20:56:56  [ main:310 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:311 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:311 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 20:56:56  [ main:312 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:312 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:313 ] - [ DEBUG ]  << "Set-Cookie: BDORZ=27315; max-age=86400; domain=.baidu.com; path=/[\r][\n]"
+2017-06-10 20:56:56  [ main:313 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:314 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:314 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 20:56:56  [ main:314 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:56:56  [ main:315 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:56:56  [ main:315 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 20:56:56  [ main:316 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:316 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:317 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:56:56  [ main:318 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:56:56  [ main:319 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:56  [ main:321 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:56:56  [ main:321 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:56:56  [ main:322 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:56:56  [ main:322 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:56:56  [ main:323 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:56:56  [ main:323 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDORZ=27315; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:56:56  [ main:324 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 20:56:56  [ main:324 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 20:56:56  [ main:325 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:56:56  [ main:325 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 20:56:56  [ main:327 ] - [ DEBUG ]  Buffering response body
+2017-06-10 20:56:56  [ main:328 ] - [ DEBUG ]  << "<!DOCTYPE html>[\r][\n]"
+2017-06-10 20:56:56  [ main:329 ] - [ DEBUG ]  << "<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b][0xef][0xbc][0x8c][0xe4][0xbd][0xa0][0xe5][0xb0][0xb1][0xe7][0x9f][0xa5][0xe9][0x81][0x93]</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=[0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe4][0xb8][0x80][0xe4][0xb8][0x8b] class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>[0xe6][0x96][0xb0][0xe9][0x97][0xbb]</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>[0xe5][0x9c][0xb0][0xe5][0x9b][0xbe]</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>[0xe8][0xa7][0x86][0xe9][0xa2][0x91]</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>[0xe8][0xb4][0xb4][0xe5][0x90][0xa7]</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">[0xe7][0x99][0xbb][0xe5][0xbd][0x95]</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">[0xe6][0x9b][0xb4][0xe5][0xa4][0x9a][0xe4][0xba][0xa7][0xe5][0x93][0x81]</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>[0xe5][0x85][0xb3][0xe4][0xba][0x8e][0xe7][0x99][0xbe][0xe5][0xba][0xa6]</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>[0xe4][0xbd][0xbf][0xe7][0x94][0xa8][0xe7][0x99][0xbe][0xe5][0xba][0xa6][0xe5][0x89][0x8d][0xe5][0xbf][0x85][0xe8][0xaf][0xbb]</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>[0xe6][0x84][0x8f][0xe8][0xa7][0x81][0xe5][0x8f][0x8d][0xe9][0xa6][0x88]</a>&nbsp;[0xe4][0xba][0xac]ICP[0xe8][0xaf][0x81]030173[0xe5][0x8f][0xb7]&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>[\r][\n]"
+2017-06-10 20:56:56  [ main:337 ] - [ DEBUG ]  Should NOT close connection in response to directive: Keep-Alive
+2017-06-10 20:56:56  [ main:337 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 20:56:56  [ main:338 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:56:56  [ main:339 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:56:56  [ main:340 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 20:56:56  [ main:341 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 20:56:56  [ main:341 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:56:56  [ main:342 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 20:56:56  [ main:343 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 20:56:56  [ main:349 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:56:56  [ main:350 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 20:57:25  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 20:57:25  [ main:4 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 20:57:25  [ main:5 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 20:57:25  [ main:9 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 20:57:25  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 20:57:25  [ main:11 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 20:57:25  [ main:93 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 20:57:25  [ main:94 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 20:57:25  [ main:94 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 20:57:25  [ main:95 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 20:57:25  [ main:96 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 20:57:25  [ main:97 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 20:57:25  [ main:97 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 20:57:25  [ main:98 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 20:57:25  [ main:98 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 20:57:25  [ main:99 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 20:57:25  [ main:104 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 20:57:25  [ main:106 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 20:57:25  [ main:107 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 20:57:25  [ main:108 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 20:57:25  [ main:109 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 20:57:25  [ main:109 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 20:57:25  [ main:111 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64cee07
+2017-06-10 20:57:25  [ main:112 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 20:57:25  [ main:119 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 20:57:25  [ main:139 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 20:57:25  [ main:140 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 20:57:25  [ main:140 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 20:57:25  [ main:148 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 20:57:25  [ main:149 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 20:57:25  [ main:149 ] - [ DEBUG ]  Open connection to www.baidu.com:443
+2017-06-10 20:57:26  [ main:539 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:539 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:540 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:541 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 20:57:26  [ main:545 ] - [ DEBUG ]  >> "GET /s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=ip&rsv_spt=1&oq=commons-httpclient-%2526lt%253B.0%2520maven&rsv_pq=c38d2ea00003f0a3&rsv_t=c759jopnYhN2rGZwHD9WR%2FqCZhmDE0UQdHeBEo6bW5DpcxhZRi%2BV7oU5528I56MG1KvP&rqlang=cn&rsv_enter=1&rsv_sug3=24&rsv_sug1=19&rsv_sug7=100&rsv_sug2=0&inputT=327053&rsv_sug4=327054 HTTP/1.1[\r][\n]"
+2017-06-10 20:57:26  [ main:546 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:57:26  [ main:547 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:57:26  [ main:547 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:57:26  [ main:547 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 20:57:26  [ main:548 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:549 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:550 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:550 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 20:57:26  [ main:551 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:560 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 20:57:26  [ main:560 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 20:57:26  [ main:561 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:561 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 20:57:26  [ main:562 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:57:26  [ main:562 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:57:26  [ main:562 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:57:26  [ main:563 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 20:57:26  [ main:564 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 20:57:26  [ main:565 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:57:26  [ main:565 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:57:26  [ main:566 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 20:57:26  [ main:566 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 20:57:26  [ main:566 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 20:57:26  [ main:567 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 20:57:26  [ main:567 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 20:57:26  [ main:707 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:709 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:710 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 20:57:26  [ main:712 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:713 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:721 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:57:26  [ main:722 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 20:57:26  [ main:723 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 20:57:26  [ main:724 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:57:26  [ main:725 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 20:57:26  [ main:726 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:726 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:727 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 20:57:26  [ main:727 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:728 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:728 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 12:57:33 GMT[\r][\n]"
+2017-06-10 20:57:26  [ main:728 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:729 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:730 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 20:57:26  [ main:730 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:731 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:731 ] - [ DEBUG ]  << "Content-Length: 227[\r][\n]"
+2017-06-10 20:57:26  [ main:732 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:732 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:733 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2017-06-10 20:57:26  [ main:734 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:734 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:735 ] - [ DEBUG ]  << "Last-Modified: Wed, 07 Jun 2017 07:35:00 GMT[\r][\n]"
+2017-06-10 20:57:26  [ main:735 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:736 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:737 ] - [ DEBUG ]  << "Set-Cookie: BD_NOT_HTTPS=1; path=/; Max-Age=300[\r][\n]"
+2017-06-10 20:57:26  [ main:737 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:738 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:738 ] - [ DEBUG ]  << "Set-Cookie: BIDUPSID=2929D2EE301CB2EA2D9B90F02B36988D; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 20:57:26  [ main:739 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:739 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:740 ] - [ DEBUG ]  << "Set-Cookie: PSTM=1497099453; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 20:57:26  [ main:740 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:741 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:741 ] - [ DEBUG ]  << "Set-Cookie: BDRCVFR[feWj1Vr5u3D]=mk3SLVN4HKm; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 20:57:26  [ main:742 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:742 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:743 ] - [ DEBUG ]  << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+2017-06-10 20:57:26  [ main:743 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:744 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:744 ] - [ DEBUG ]  << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+2017-06-10 20:57:26  [ main:745 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:745 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:745 ] - [ DEBUG ]  << "X-UA-Compatible: IE=Edge,chrome=1[\r][\n]"
+2017-06-10 20:57:26  [ main:746 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:746 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:747 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 20:57:26  [ main:747 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:748 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:748 ] - [ DEBUG ]  << "Cache-control: no-cache[\r][\n]"
+2017-06-10 20:57:26  [ main:748 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:749 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:749 ] - [ DEBUG ]  << "Strict-Transport-Security: max-age=0[\r][\n]"
+2017-06-10 20:57:26  [ main:750 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:751 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:751 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 20:57:26  [ main:752 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:752 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:753 ] - [ DEBUG ]  << "Set-Cookie: __bsi=16521159331568514724_00_126_N_N_7_0303_C02F_N_N_N_0; expires=Sat, 10-Jun-17 12:57:38 GMT; domain=www.baidu.com; path=/[\r][\n]"
+2017-06-10 20:57:26  [ main:753 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 20:57:26  [ main:754 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 20:57:26  [ main:755 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 20:57:26  [ main:756 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:757 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:758 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:57:26  [ main:758 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:57:26  [ main:760 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:57:26  [ main:763 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:57:26  [ main:763 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:57:26  [ main:764 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:57:26  [ main:764 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:57:26  [ main:764 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:57:26  [ main:765 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BD_NOT_HTTPS=1; $Path=/"
+2017-06-10 20:57:26  [ main:765 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:57:26  [ main:765 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:57:26  [ main:772 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:57:26  [ main:773 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:57:26  [ main:774 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:57:26  [ main:774 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:57:26  [ main:775 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:57:26  [ main:776 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BIDUPSID=2929D2EE301CB2EA2D9B90F02B36988D; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:57:26  [ main:776 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:57:26  [ main:776 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:57:26  [ main:777 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:57:26  [ main:778 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:57:26  [ main:779 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:57:26  [ main:779 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:57:26  [ main:779 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:57:26  [ main:779 ] - [ DEBUG ]  Cookie accepted: "$Version=0; PSTM=1497099453; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:57:26  [ main:780 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:57:26  [ main:780 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:57:26  [ main:781 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:57:26  [ main:781 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:57:26  [ main:782 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:57:26  [ main:782 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:57:26  [ main:783 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:57:26  [ main:783 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:57:26  [ main:784 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDRCVFR[feWj1Vr5u3D]=mk3SLVN4HKm; $Path=/; $Domain=.baidu.com"
+2017-06-10 20:57:26  [ main:786 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 20:57:26  [ main:786 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 20:57:26  [ main:788 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 20:57:26  [ main:789 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 20:57:26  [ main:789 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 20:57:26  [ main:790 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 20:57:26  [ main:790 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 20:57:26  [ main:791 ] - [ DEBUG ]  Cookie accepted: "$Version=0; __bsi=16521159331568514724_00_126_N_N_7_0303_C02F_N_N_N_0; $Path=/; $Domain=www.baidu.com"
+2017-06-10 20:57:26  [ main:791 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 20:57:26  [ main:792 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 20:57:26  [ main:792 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 20:57:26  [ main:793 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 20:57:26  [ main:794 ] - [ DEBUG ]  Buffering response body
+2017-06-10 20:57:26  [ main:795 ] - [ DEBUG ]  << "<html>[\r][\n]"
+2017-06-10 20:57:26  [ main:796 ] - [ DEBUG ]  << "<head>[\r][\n]"
+2017-06-10 20:57:26  [ main:796 ] - [ DEBUG ]  << "[0x9]<script>[\r][\n]"
+2017-06-10 20:57:26  [ main:797 ] - [ DEBUG ]  << "[0x9][0x9]location.replace(location.href.replace("https://","http://"));[\r][\n]"
+2017-06-10 20:57:26  [ main:797 ] - [ DEBUG ]  << "[0x9]</script>[\r][\n]"
+2017-06-10 20:57:26  [ main:797 ] - [ DEBUG ]  << "</head>[\r][\n]"
+2017-06-10 20:57:26  [ main:798 ] - [ DEBUG ]  << "<body>[\r][\n]"
+2017-06-10 20:57:26  [ main:798 ] - [ DEBUG ]  << "[0x9]<noscript><meta http-equiv="refresh" content="0;url=http://www.baidu.com/"></noscript>[\r][\n]"
+2017-06-10 20:57:26  [ main:799 ] - [ DEBUG ]  << "</body>[\r][\n]"
+2017-06-10 20:57:26  [ main:799 ] - [ DEBUG ]  << "</html>"
+2017-06-10 20:57:26  [ main:800 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2017-06-10 20:57:26  [ main:800 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 20:57:26  [ main:801 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 20:57:26  [ main:802 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 20:57:26  [ main:803 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 20:57:26  [ main:803 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 20:57:26  [ main:804 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 20:57:26  [ main:805 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 20:57:26  [ main:805 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 20:57:26  [ main:806 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 20:57:26  [ main:807 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 21:08:37  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_121
+2017-06-10 21:08:37  [ main:6 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2017-06-10 21:08:37  [ main:6 ] - [ DEBUG ]  Java class path: D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;F:\SVN\output\intellij\aliyun-ip-analysis\target\classes;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\junit-4.11.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-core-1.3.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\hamcrest-library-1.3.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-alidns\2.0.1\aliyun-java-sdk-alidns-2.0.1.jar;C:\Users\hasee\.m2\repository\com\aliyun\aliyun-java-sdk-core\2.3.8\aliyun-java-sdk-core-2.3.8.jar;C:\Users\hasee\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\hasee\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hasee\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\hasee\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\hasee\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+2017-06-10 21:08:37  [ main:13 ] - [ DEBUG ]  Operating system name: Windows 10
+2017-06-10 21:08:37  [ main:14 ] - [ DEBUG ]  Operating system architecture: amd64
+2017-06-10 21:08:37  [ main:14 ] - [ DEBUG ]  Operating system version: 10.0
+2017-06-10 21:08:37  [ main:110 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2017-06-10 21:08:37  [ main:111 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2017-06-10 21:08:37  [ main:112 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2017-06-10 21:08:37  [ main:113 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2017-06-10 21:08:37  [ main:114 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2017-06-10 21:08:37  [ main:115 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2017-06-10 21:08:37  [ main:115 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2017-06-10 21:08:37  [ main:117 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2017-06-10 21:08:37  [ main:118 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2017-06-10 21:08:37  [ main:118 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2017-06-10 21:08:37  [ main:125 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2017-06-10 21:08:37  [ main:128 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2017-06-10 21:08:37  [ main:136 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2017-06-10 21:08:37  [ main:137 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2017-06-10 21:08:37  [ main:138 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2017-06-10 21:08:37  [ main:139 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2017-06-10 21:08:37  [ main:140 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64cee07
+2017-06-10 21:08:37  [ main:142 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2017-06-10 21:08:37  [ main:151 ] - [ DEBUG ]  Set parameter http.connection.timeout = 2000
+2017-06-10 21:08:37  [ main:172 ] - [ DEBUG ]  enter GetMethod(String)
+2017-06-10 21:08:37  [ main:173 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2017-06-10 21:08:37  [ main:173 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2017-06-10 21:08:37  [ main:183 ] - [ DEBUG ]  Attempt number 1 to process request
+2017-06-10 21:08:37  [ main:183 ] - [ DEBUG ]  enter HttpConnection.open()
+2017-06-10 21:08:37  [ main:184 ] - [ DEBUG ]  Open connection to www.baidu.com:443
+2017-06-10 21:08:37  [ main:624 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2017-06-10 21:08:37  [ main:625 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2017-06-10 21:08:37  [ main:626 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2017-06-10 21:08:37  [ main:627 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2017-06-10 21:08:37  [ main:630 ] - [ DEBUG ]  >> "GET /s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=ip&rsv_spt=1&oq=commons-httpclient-%2526lt%253B.0%2520maven&rsv_pq=c38d2ea00003f0a3&rsv_t=c759jopnYhN2rGZwHD9WR%2FqCZhmDE0UQdHeBEo6bW5DpcxhZRi%2BV7oU5528I56MG1KvP&rqlang=cn&rsv_enter=1&rsv_sug3=24&rsv_sug1=19&rsv_sug7=100&rsv_sug2=0&inputT=327053&rsv_sug4=327054 HTTP/1.1[\r][\n]"
+2017-06-10 21:08:37  [ main:631 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 21:08:38  [ main:632 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 21:08:38  [ main:633 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 21:08:38  [ main:634 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2017-06-10 21:08:38  [ main:634 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:635 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:637 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:638 ] - [ DEBUG ]  Adding Host request header
+2017-06-10 21:08:38  [ main:639 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:653 ] - [ DEBUG ]  enter HttpState.getCookies()
+2017-06-10 21:08:38  [ main:653 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2017-06-10 21:08:38  [ main:654 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:655 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2017-06-10 21:08:38  [ main:655 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 21:08:38  [ main:656 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 21:08:38  [ main:656 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 21:08:38  [ main:657 ] - [ DEBUG ]  >> "Host: www.baidu.com[\r][\n]"
+2017-06-10 21:08:38  [ main:658 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2017-06-10 21:08:38  [ main:658 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 21:08:38  [ main:659 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 21:08:38  [ main:659 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2017-06-10 21:08:38  [ main:661 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2017-06-10 21:08:38  [ main:662 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2017-06-10 21:08:38  [ main:665 ] - [ DEBUG ]  >> "[\r][\n]"
+2017-06-10 21:08:38  [ main:666 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2017-06-10 21:08:38  [ main:802 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:803 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:804 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2017-06-10 21:08:38  [ main:806 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:806 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:818 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 21:08:38  [ main:819 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-10 21:08:38  [ main:820 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2017-06-10 21:08:38  [ main:821 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 21:08:38  [ main:822 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2017-06-10 21:08:38  [ main:822 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:823 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:823 ] - [ DEBUG ]  << "Server: bfe/1.0.8.18[\r][\n]"
+2017-06-10 21:08:38  [ main:824 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:824 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:825 ] - [ DEBUG ]  << "Date: Sat, 10 Jun 2017 13:08:45 GMT[\r][\n]"
+2017-06-10 21:08:38  [ main:825 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:825 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:826 ] - [ DEBUG ]  << "Content-Type: text/html[\r][\n]"
+2017-06-10 21:08:38  [ main:827 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:828 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:829 ] - [ DEBUG ]  << "Content-Length: 227[\r][\n]"
+2017-06-10 21:08:38  [ main:830 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:830 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:831 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2017-06-10 21:08:38  [ main:831 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:832 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:833 ] - [ DEBUG ]  << "Last-Modified: Wed, 07 Jun 2017 07:35:00 GMT[\r][\n]"
+2017-06-10 21:08:38  [ main:833 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:834 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:835 ] - [ DEBUG ]  << "Set-Cookie: BD_NOT_HTTPS=1; path=/; Max-Age=300[\r][\n]"
+2017-06-10 21:08:38  [ main:835 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:835 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:836 ] - [ DEBUG ]  << "Set-Cookie: BIDUPSID=A15E75B88130489C59AED7DF3C7E63FD; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 21:08:38  [ main:839 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:840 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:841 ] - [ DEBUG ]  << "Set-Cookie: PSTM=1497100125; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 21:08:38  [ main:842 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:843 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:844 ] - [ DEBUG ]  << "Set-Cookie: BDRCVFR[feWj1Vr5u3D]=mk3SLVN4HKm; path=/; domain=.baidu.com[\r][\n]"
+2017-06-10 21:08:38  [ main:845 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:846 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:846 ] - [ DEBUG ]  << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+2017-06-10 21:08:38  [ main:855 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:856 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:857 ] - [ DEBUG ]  << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+2017-06-10 21:08:38  [ main:858 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:858 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:859 ] - [ DEBUG ]  << "X-UA-Compatible: IE=Edge,chrome=1[\r][\n]"
+2017-06-10 21:08:38  [ main:860 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:861 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:862 ] - [ DEBUG ]  << "Pragma: no-cache[\r][\n]"
+2017-06-10 21:08:38  [ main:865 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:866 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:868 ] - [ DEBUG ]  << "Cache-control: no-cache[\r][\n]"
+2017-06-10 21:08:38  [ main:869 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:872 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:872 ] - [ DEBUG ]  << "Strict-Transport-Security: max-age=0[\r][\n]"
+2017-06-10 21:08:38  [ main:873 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:873 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:874 ] - [ DEBUG ]  << "Accept-Ranges: bytes[\r][\n]"
+2017-06-10 21:08:38  [ main:874 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:875 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:876 ] - [ DEBUG ]  << "Set-Cookie: __bsi=13687304174055626767_00_117_N_N_7_0303_C02F_N_N_N_0; expires=Sat, 10-Jun-17 13:08:50 GMT; domain=www.baidu.com; path=/[\r][\n]"
+2017-06-10 21:08:38  [ main:881 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2017-06-10 21:08:38  [ main:882 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2017-06-10 21:08:38  [ main:886 ] - [ DEBUG ]  << "[\r][\n]"
+2017-06-10 21:08:38  [ main:887 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:888 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:889 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 21:08:38  [ main:890 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 21:08:38  [ main:891 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 21:08:38  [ main:896 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 21:08:38  [ main:896 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 21:08:38  [ main:897 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 21:08:38  [ main:899 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 21:08:38  [ main:900 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 21:08:38  [ main:901 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BD_NOT_HTTPS=1; $Path=/"
+2017-06-10 21:08:38  [ main:901 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 21:08:38  [ main:902 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 21:08:38  [ main:906 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 21:08:38  [ main:908 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 21:08:38  [ main:908 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 21:08:38  [ main:909 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 21:08:38  [ main:911 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 21:08:38  [ main:912 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BIDUPSID=A15E75B88130489C59AED7DF3C7E63FD; $Path=/; $Domain=.baidu.com"
+2017-06-10 21:08:38  [ main:913 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 21:08:38  [ main:913 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 21:08:38  [ main:915 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 21:08:38  [ main:916 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 21:08:38  [ main:916 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 21:08:38  [ main:917 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 21:08:38  [ main:917 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 21:08:38  [ main:918 ] - [ DEBUG ]  Cookie accepted: "$Version=0; PSTM=1497100125; $Path=/; $Domain=.baidu.com"
+2017-06-10 21:08:38  [ main:918 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 21:08:38  [ main:919 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 21:08:38  [ main:919 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 21:08:38  [ main:919 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 21:08:38  [ main:920 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 21:08:38  [ main:920 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 21:08:38  [ main:920 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 21:08:38  [ main:922 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 21:08:38  [ main:923 ] - [ DEBUG ]  Cookie accepted: "$Version=0; BDRCVFR[feWj1Vr5u3D]=mk3SLVN4HKm; $Path=/; $Domain=.baidu.com"
+2017-06-10 21:08:38  [ main:924 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, String)
+2017-06-10 21:08:38  [ main:924 ] - [ DEBUG ]  enter CookieSpecBase.parse(String, port, path, boolean, Header)
+2017-06-10 21:08:38  [ main:925 ] - [ DEBUG ]  enter Cookie(String, String, String, String, Date, boolean)
+2017-06-10 21:08:38  [ main:926 ] - [ DEBUG ]  enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+2017-06-10 21:08:38  [ main:927 ] - [ DEBUG ]  enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+2017-06-10 21:08:38  [ main:927 ] - [ DEBUG ]  enter HttpState.addCookie(Cookie)
+2017-06-10 21:08:38  [ main:928 ] - [ DEBUG ]  enter RFC2109Spec.formatCookie(Cookie)
+2017-06-10 21:08:38  [ main:929 ] - [ DEBUG ]  Cookie accepted: "$Version=0; __bsi=13687304174055626767_00_117_N_N_7_0303_C02F_N_N_N_0; $Path=/; $Domain=www.baidu.com"
+2017-06-10 21:08:38  [ main:929 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2017-06-10 21:08:38  [ main:929 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2017-06-10 21:08:38  [ main:930 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2017-06-10 21:08:38  [ main:930 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2017-06-10 21:08:38  [ main:932 ] - [ DEBUG ]  Buffering response body
+2017-06-10 21:08:38  [ main:932 ] - [ DEBUG ]  << "<html>[\r][\n]"
+2017-06-10 21:08:38  [ main:932 ] - [ DEBUG ]  << "<head>[\r][\n]"
+2017-06-10 21:08:38  [ main:933 ] - [ DEBUG ]  << "[0x9]<script>[\r][\n]"
+2017-06-10 21:08:38  [ main:933 ] - [ DEBUG ]  << "[0x9][0x9]location.replace(location.href.replace("https://","http://"));[\r][\n]"
+2017-06-10 21:08:38  [ main:934 ] - [ DEBUG ]  << "[0x9]</script>[\r][\n]"
+2017-06-10 21:08:38  [ main:934 ] - [ DEBUG ]  << "</head>[\r][\n]"
+2017-06-10 21:08:38  [ main:934 ] - [ DEBUG ]  << "<body>[\r][\n]"
+2017-06-10 21:08:38  [ main:934 ] - [ DEBUG ]  << "[0x9]<noscript><meta http-equiv="refresh" content="0;url=http://www.baidu.com/"></noscript>[\r][\n]"
+2017-06-10 21:08:38  [ main:935 ] - [ DEBUG ]  << "</body>[\r][\n]"
+2017-06-10 21:08:38  [ main:935 ] - [ DEBUG ]  << "</html>"
+2017-06-10 21:08:38  [ main:936 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2017-06-10 21:08:38  [ main:936 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2017-06-10 21:08:38  [ main:936 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2017-06-10 21:08:38  [ main:938 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2017-06-10 21:08:38  [ main:938 ] - [ DEBUG ]  enter getContentCharSet( Header contentheader )
+2017-06-10 21:08:38  [ main:939 ] - [ DEBUG ]  enter HeaderElement.parseElements(String)
+2017-06-10 21:08:38  [ main:939 ] - [ DEBUG ]  enter HeaderElement.parseElements(char[])
+2017-06-10 21:08:38  [ main:940 ] - [ DEBUG ]  enter HeaderElement.getParameterByName(String)
+2017-06-10 21:08:38  [ main:940 ] - [ DEBUG ]  Default charset used: ISO-8859-1
+2017-06-10 21:08:38  [ main:942 ] - [ DEBUG ]  enter HttpConnection.close()
+2017-06-10 21:08:38  [ main:942 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+2017-06-10 22:12:10  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 10.0.1.1, RR: www, type: A
+2017-06-10 22:12:10  [ main:3 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 10.0.1.1, RR: @, type: A
+2017-06-10 22:12:10  [ main:390 ] - [ INFO ]  3400682181400576 7F1983CA-B407-45C6-9B98-59E131E7E773 
+2017-06-10 22:12:10  [ main:749 ] - [ INFO ]  3400682183153664 B9951896-794E-43DE-A23F-B793DD5FAEBB 
+2017-06-10 22:16:36  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 192.168.112.1, RR: www, type: A
+2017-06-10 22:16:36  [ main:3 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 192.168.112.1, RR: @, type: A
+2017-06-10 22:18:25  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 192.168.112.1, RR: www, type: A
+2017-06-10 22:18:25  [ main:3 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 192.168.112.1, RR: @, type: A
+2017-06-10 22:18:25  [ main:347 ] - [ INFO ]  3400682181400576 17F812E3-4220-4749-BED4-3AB5CDC70634 
+2017-06-10 22:18:25  [ main:702 ] - [ INFO ]  3400682183153664 A3DF77B3-AA46-4AF2-91ED-C8E4668F5CF5 
+2017-06-10 22:18:30  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:18:30  [ main:2 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:28:20  [ main:0 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:28:20  [ main:2 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:48  [ Thread-0:0 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:49  [ Thread-0:636 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:49  [ Thread-0:636 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:49  [ Thread-0:637 ] - [ INFO ]  执行次数：1/ 修改ip次数：0
+2017-06-10 22:45:51  [ Thread-0:2399 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:51  [ Thread-0:2522 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:51  [ Thread-0:2522 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:51  [ Thread-0:2522 ] - [ INFO ]  执行次数：2/ 修改ip次数：0
+2017-06-10 22:45:53  [ Thread-0:4334 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:53  [ Thread-0:4455 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:53  [ Thread-0:4455 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:53  [ Thread-0:4455 ] - [ INFO ]  执行次数：3/ 修改ip次数：0
+2017-06-10 22:45:55  [ Thread-0:6063 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:55  [ Thread-0:6176 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:55  [ Thread-0:6176 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:55  [ Thread-0:6176 ] - [ INFO ]  执行次数：4/ 修改ip次数：0
+2017-06-10 22:45:56  [ Thread-0:7836 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:56  [ Thread-0:7936 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:56  [ Thread-0:7937 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:56  [ Thread-0:7937 ] - [ INFO ]  执行次数：5/ 修改ip次数：0
+2017-06-10 22:45:58  [ Thread-0:9537 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:45:58  [ Thread-0:9834 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:45:58  [ Thread-0:9834 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:45:58  [ Thread-0:9834 ] - [ INFO ]  执行次数：6/ 修改ip次数：0
+2017-06-10 22:46:00  [ Thread-0:11455 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:46:00  [ Thread-0:11549 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:46:00  [ Thread-0:11549 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:46:00  [ Thread-0:11550 ] - [ INFO ]  执行次数：7/ 修改ip次数：0
+2017-06-10 22:46:02  [ Thread-0:13159 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 22:46:02  [ Thread-0:13500 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 22:46:02  [ Thread-0:13501 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 22:46:02  [ Thread-0:13501 ] - [ INFO ]  执行次数：8/ 修改ip次数：0
+2017-06-10 23:10:22  [ Thread-0:0 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:10:23  [ Thread-0:619 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:10:23  [ Thread-0:619 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:10:23  [ Thread-0:619 ] - [ INFO ]  执行次数：1/ 修改ip次数：0
+2017-06-10 23:10:43  [ Thread-0:0 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:10:44  [ Thread-0:562 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:10:44  [ Thread-0:562 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:10:44  [ Thread-0:562 ] - [ INFO ]  执行次数：1/ 修改ip次数：0
+2017-06-10 23:11:44  [ Thread-0:61402 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:11:45  [ Thread-0:61516 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:11:45  [ Thread-0:61517 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:11:45  [ Thread-0:61517 ] - [ INFO ]  执行次数：2/ 修改ip次数：0
+2017-06-10 23:12:45  [ Thread-0:122252 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:12:45  [ Thread-0:122361 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:12:45  [ Thread-0:122362 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:12:45  [ Thread-0:122362 ] - [ INFO ]  执行次数：3/ 修改ip次数：0
+2017-06-10 23:13:46  [ Thread-0:182985 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:13:46  [ Thread-0:183087 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:13:46  [ Thread-0:183087 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:13:46  [ Thread-0:183088 ] - [ INFO ]  执行次数：4/ 修改ip次数：0
+2017-06-10 23:14:47  [ Thread-0:243697 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:14:47  [ Thread-0:243817 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:14:47  [ Thread-0:243817 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:14:47  [ Thread-0:243817 ] - [ INFO ]  执行次数：5/ 修改ip次数：0
+2017-06-10 23:15:47  [ Thread-0:304477 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:15:48  [ Thread-0:304612 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:15:48  [ Thread-0:304612 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:15:48  [ Thread-0:304612 ] - [ INFO ]  执行次数：6/ 修改ip次数：0
+2017-06-10 23:16:48  [ Thread-0:365236 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:16:48  [ Thread-0:365346 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:16:48  [ Thread-0:365347 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:16:48  [ Thread-0:365347 ] - [ INFO ]  执行次数：7/ 修改ip次数：0
+2017-06-10 23:17:49  [ Thread-0:425949 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:17:49  [ Thread-0:426048 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:17:49  [ Thread-0:426049 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:17:49  [ Thread-0:426049 ] - [ INFO ]  执行次数：8/ 修改ip次数：0
+2017-06-10 23:18:50  [ Thread-0:486644 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:18:50  [ Thread-0:486742 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:18:50  [ Thread-0:486743 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:18:50  [ Thread-0:486743 ] - [ INFO ]  执行次数：9/ 修改ip次数：0
+2017-06-10 23:19:50  [ Thread-0:547334 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:19:50  [ Thread-0:547431 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:19:50  [ Thread-0:547431 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:19:50  [ Thread-0:547431 ] - [ INFO ]  执行次数：10/ 修改ip次数：0
+2017-06-10 23:20:51  [ Thread-0:607994 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:20:51  [ Thread-0:608117 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:20:51  [ Thread-0:608117 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:20:51  [ Thread-0:608117 ] - [ INFO ]  执行次数：11/ 修改ip次数：0
+2017-06-10 23:21:52  [ Thread-0:668718 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:21:52  [ Thread-0:668824 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:21:52  [ Thread-0:668824 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:21:52  [ Thread-0:668824 ] - [ INFO ]  执行次数：12/ 修改ip次数：0
+2017-06-10 23:22:52  [ Thread-0:729376 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:22:52  [ Thread-0:729485 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:22:52  [ Thread-0:729486 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:22:52  [ Thread-0:729486 ] - [ INFO ]  执行次数：13/ 修改ip次数：0
+2017-06-10 23:23:53  [ Thread-0:790080 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:23:53  [ Thread-0:790179 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:23:53  [ Thread-0:790179 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:23:53  [ Thread-0:790179 ] - [ INFO ]  执行次数：14/ 修改ip次数：0
+2017-06-10 23:24:54  [ Thread-0:850744 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:24:54  [ Thread-0:850858 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:24:54  [ Thread-0:850859 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:24:54  [ Thread-0:850859 ] - [ INFO ]  执行次数：15/ 修改ip次数：0
+2017-06-10 23:25:54  [ Thread-0:911440 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:25:55  [ Thread-0:911565 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:25:55  [ Thread-0:911565 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:25:55  [ Thread-0:911565 ] - [ INFO ]  执行次数：16/ 修改ip次数：0
+2017-06-10 23:26:55  [ Thread-0:972138 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:26:55  [ Thread-0:972248 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:26:55  [ Thread-0:972248 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:26:55  [ Thread-0:972249 ] - [ INFO ]  执行次数：17/ 修改ip次数：0
+2017-06-10 23:27:56  [ Thread-0:1032818 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:27:56  [ Thread-0:1032920 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:27:56  [ Thread-0:1032920 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:27:56  [ Thread-0:1032920 ] - [ INFO ]  执行次数：18/ 修改ip次数：0
+2017-06-10 23:28:56  [ Thread-0:1093508 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:28:57  [ Thread-0:1093611 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:28:57  [ Thread-0:1093612 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:28:57  [ Thread-0:1093612 ] - [ INFO ]  执行次数：19/ 修改ip次数：0
+2017-06-10 23:29:57  [ Thread-0:1154233 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:29:57  [ Thread-0:1154332 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:29:57  [ Thread-0:1154333 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:29:57  [ Thread-0:1154333 ] - [ INFO ]  执行次数：20/ 修改ip次数：0
+2017-06-10 23:30:58  [ Thread-0:1214990 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:30:58  [ Thread-0:1215120 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:30:58  [ Thread-0:1215121 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:30:58  [ Thread-0:1215121 ] - [ INFO ]  执行次数：21/ 修改ip次数：0
+2017-06-10 23:31:59  [ Thread-0:1275688 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:31:59  [ Thread-0:1275796 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:31:59  [ Thread-0:1275796 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:31:59  [ Thread-0:1275796 ] - [ INFO ]  执行次数：22/ 修改ip次数：0
+2017-06-10 23:32:59  [ Thread-0:1336367 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:32:59  [ Thread-0:1336472 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:32:59  [ Thread-0:1336473 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:32:59  [ Thread-0:1336473 ] - [ INFO ]  执行次数：23/ 修改ip次数：0
+2017-06-10 23:34:00  [ Thread-0:1397063 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:34:00  [ Thread-0:1397168 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:34:00  [ Thread-0:1397168 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:34:00  [ Thread-0:1397168 ] - [ INFO ]  执行次数：24/ 修改ip次数：0
+2017-06-10 23:35:01  [ Thread-0:1457755 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:35:01  [ Thread-0:1457863 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:35:01  [ Thread-0:1457864 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:35:01  [ Thread-0:1457864 ] - [ INFO ]  执行次数：25/ 修改ip次数：0
+2017-06-10 23:36:01  [ Thread-0:1518444 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:36:02  [ Thread-0:1518567 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:36:02  [ Thread-0:1518567 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:36:02  [ Thread-0:1518567 ] - [ INFO ]  执行次数：26/ 修改ip次数：0
+2017-06-10 23:37:02  [ Thread-0:1579136 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:37:02  [ Thread-0:1579242 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:37:02  [ Thread-0:1579242 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:37:02  [ Thread-0:1579242 ] - [ INFO ]  执行次数：27/ 修改ip次数：0
+2017-06-10 23:38:03  [ Thread-0:1639825 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:38:03  [ Thread-0:1639929 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:38:03  [ Thread-0:1639930 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:38:03  [ Thread-0:1639930 ] - [ INFO ]  执行次数：28/ 修改ip次数：0
+2017-06-10 23:39:03  [ Thread-0:1700512 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:39:04  [ Thread-0:1700628 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:39:04  [ Thread-0:1700629 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:39:04  [ Thread-0:1700629 ] - [ INFO ]  执行次数：29/ 修改ip次数：0
+2017-06-10 23:40:04  [ Thread-0:1761206 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:40:04  [ Thread-0:1761313 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:40:04  [ Thread-0:1761314 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:40:04  [ Thread-0:1761314 ] - [ INFO ]  执行次数：30/ 修改ip次数：0
+2017-06-10 23:41:05  [ Thread-0:1821672 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:41:05  [ Thread-0:1821906 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:41:05  [ Thread-0:1821906 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:41:05  [ Thread-0:1821906 ] - [ INFO ]  执行次数：31/ 修改ip次数：0
+2017-06-10 23:42:05  [ Thread-0:1882269 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:42:05  [ Thread-0:1882409 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:42:05  [ Thread-0:1882410 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:42:05  [ Thread-0:1882410 ] - [ INFO ]  执行次数：32/ 修改ip次数：0
+2017-06-10 23:43:06  [ Thread-0:1942796 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:43:06  [ Thread-0:1942897 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:43:06  [ Thread-0:1942898 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:43:06  [ Thread-0:1942898 ] - [ INFO ]  执行次数：33/ 修改ip次数：0
+2017-06-10 23:44:06  [ Thread-0:2003254 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:44:06  [ Thread-0:2003368 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:44:06  [ Thread-0:2003369 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:44:06  [ Thread-0:2003369 ] - [ INFO ]  执行次数：34/ 修改ip次数：0
+2017-06-10 23:45:07  [ Thread-0:2063724 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:45:07  [ Thread-0:2063827 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:45:07  [ Thread-0:2063827 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:45:07  [ Thread-0:2063827 ] - [ INFO ]  执行次数：35/ 修改ip次数：0
+2017-06-10 23:46:07  [ Thread-0:2124185 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:46:07  [ Thread-0:2124313 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:46:07  [ Thread-0:2124313 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:46:07  [ Thread-0:2124313 ] - [ INFO ]  执行次数：36/ 修改ip次数：0
+2017-06-10 23:47:08  [ Thread-0:2184670 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:47:08  [ Thread-0:2184774 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:47:08  [ Thread-0:2184774 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:47:08  [ Thread-0:2184774 ] - [ INFO ]  执行次数：37/ 修改ip次数：0
+2017-06-10 23:48:08  [ Thread-0:2245138 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:48:08  [ Thread-0:2245243 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:48:08  [ Thread-0:2245243 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:48:08  [ Thread-0:2245243 ] - [ INFO ]  执行次数：38/ 修改ip次数：0
+2017-06-10 23:49:09  [ Thread-0:2305611 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:49:09  [ Thread-0:2305724 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:49:09  [ Thread-0:2305724 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:49:09  [ Thread-0:2305725 ] - [ INFO ]  执行次数：39/ 修改ip次数：0
+2017-06-10 23:50:09  [ Thread-0:2366086 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:50:09  [ Thread-0:2366189 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:50:09  [ Thread-0:2366189 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:50:09  [ Thread-0:2366189 ] - [ INFO ]  执行次数：40/ 修改ip次数：0
+2017-06-10 23:51:10  [ Thread-0:2426558 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:51:10  [ Thread-0:2426685 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:51:10  [ Thread-0:2426685 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:51:10  [ Thread-0:2426685 ] - [ INFO ]  执行次数：41/ 修改ip次数：0
+2017-06-10 23:52:10  [ Thread-0:2487112 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:52:10  [ Thread-0:2487240 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:52:10  [ Thread-0:2487240 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:52:10  [ Thread-0:2487240 ] - [ INFO ]  执行次数：42/ 修改ip次数：0
+2017-06-10 23:53:11  [ Thread-0:2547626 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:53:11  [ Thread-0:2547727 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:53:11  [ Thread-0:2547727 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:53:11  [ Thread-0:2547727 ] - [ INFO ]  执行次数：43/ 修改ip次数：0
+2017-06-10 23:54:11  [ Thread-0:2608097 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:54:11  [ Thread-0:2608195 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:54:11  [ Thread-0:2608195 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:54:11  [ Thread-0:2608195 ] - [ INFO ]  执行次数：44/ 修改ip次数：0
+2017-06-10 23:55:12  [ Thread-0:2668536 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:55:12  [ Thread-0:2668648 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:55:12  [ Thread-0:2668648 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:55:12  [ Thread-0:2668648 ] - [ INFO ]  执行次数：45/ 修改ip次数：0
+2017-06-10 23:56:12  [ Thread-0:2729035 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:56:12  [ Thread-0:2729159 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:56:12  [ Thread-0:2729159 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:56:12  [ Thread-0:2729159 ] - [ INFO ]  执行次数：46/ 修改ip次数：0
+2017-06-10 23:57:12  [ Thread-0:2789511 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:57:13  [ Thread-0:2789625 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:57:13  [ Thread-0:2789625 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:57:13  [ Thread-0:2789625 ] - [ INFO ]  执行次数：47/ 修改ip次数：0
+2017-06-10 23:58:13  [ Thread-0:2850001 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:58:13  [ Thread-0:2850105 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:58:13  [ Thread-0:2850105 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:58:13  [ Thread-0:2850105 ] - [ INFO ]  执行次数：48/ 修改ip次数：0
+2017-06-10 23:59:13  [ Thread-0:2910470 ] - [ INFO ]  当前公网ip: 183.17.224.221
+2017-06-10 23:59:14  [ Thread-0:2910578 ] - [ INFO ]  name: justplay1994.win, id: 3400682181400576, value: 183.17.224.221, RR: www, type: A
+2017-06-10 23:59:14  [ Thread-0:2910578 ] - [ INFO ]  name: justplay1994.win, id: 3400682183153664, value: 183.17.224.221, RR: @, type: A
+2017-06-10 23:59:14  [ Thread-0:2910578 ] - [ INFO ]  执行次数：49/ 修改ip次数：0
